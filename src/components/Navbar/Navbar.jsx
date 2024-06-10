@@ -11,7 +11,7 @@ const Navbar = () => {
 
     return (
         <header className='w-full'>
-          <nav className="bg-[#000]  w-full top-0 left-0  z-[100] fixed ">
+          <nav className="bg-[#000]  w-full top-0 left-0  z-[100] fixed py-3 border-b-2 border-[#4cc273]">
             <div className="mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     <div className="flex items-center justify-start">
