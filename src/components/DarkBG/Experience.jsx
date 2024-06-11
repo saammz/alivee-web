@@ -5,7 +5,7 @@ const Experience = () => {
     <div className="bg-black lg:pt-20 flex flex-col gap-4 w-full h-full">
       <div className="flex flex-col items-center gap-8 mb-10 md:mb-20 text-center sm-max:pt-16">
         <h2 className="text-4xl leading-4xl md:text-7xl md:leading-7xl font-semibold">
-          <span className="flex max-w-3xl mx-auto text-white mt-6 md-max:mt-24">
+          <span className="flex max-w-3xl mx-auto text-white mt-6 md:mt-24 sm-max:text-xl">
             Personalised Fitness, Nutrition and Mental Balance plans
           </span>
         </h2>
