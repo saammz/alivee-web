@@ -3,7 +3,7 @@ import Hero from "../../components/Hero/Hero"
 
 const Home = () => {
   return (
-    <main>
+    <main className="flex flex-col items-center justify-center">
       <Hero/>
       <Darkbg/>
     </main>

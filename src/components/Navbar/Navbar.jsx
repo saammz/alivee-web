@@ -29,11 +29,11 @@ const Navbar = () => {
                         <button className="text-white border border:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Login</button>
                       </Link> */}
                       <Link>
-                        <button className="text-white bg-[#4cc273] hover:bg-opacity-90 hover:text-white px-3 py-2 rounded-2xl text-sm font-medium">Join Waitlist</button>
+                        <button className="text-white bg-[#4cc273] hover:bg-opacity-90 hover:text-white px-6 py-4 rounded-[2rem] text-sm font-medium">Join Waitlist</button>
                       </Link>
                     </div>
 
-                    <div className="md:hidden sm:hidden flex items-center">
+                    <div className="md:hidden sm-max:hidden flex items-center">
                         <button onClick={toggleMenu} className="text-white hover:text-white focus:outline-none">
                             {isOpen ? (
                                 <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
