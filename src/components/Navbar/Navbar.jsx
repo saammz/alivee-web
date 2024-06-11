@@ -27,7 +27,6 @@ const Navbar = () => {
                 Join Waitlist
               </button>
             </div>
-
             <div className="md:hidden sm-max:hidden flex items-center">
               <button className="text-white hover:text-white focus:outline-none">
                 {isOpen ? (
