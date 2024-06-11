@@ -22,10 +22,10 @@ const Modal = ({ isOpen, onClose, onSubmit }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50  sm-max:px-4">
       <div className="bg-white rounded-lg p-8 shadow-xl w-full sm:w-96">
-        <button className="absolute top-[15%] right-24 p-2 sm-max:right-0" onClick={onClose}>
-          <svg className="w-12 h-12 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <button className="absolute top-[12%] right-24 p-2 sm-max:right-0" onClick={onClose}>
+          <svg className="w-12 h-12 text-red-600 sm-max:w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>
           </svg>
         </button>
