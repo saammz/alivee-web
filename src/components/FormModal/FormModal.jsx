@@ -17,6 +17,11 @@ const Modal = ({ isOpen, onClose, onSubmit }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     onSubmit(formData);
+    setFormData({
+      name: '',
+      email: '',
+      phoneNumber: ''
+    });
   };
 
   if (!isOpen) return null;
