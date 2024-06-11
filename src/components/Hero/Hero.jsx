@@ -1,6 +1,15 @@
-import { Link } from "react-router-dom";
 import HeroSection from "../../resources/Hero.webp";
+import Modal from "../FormModal/FormModal";
+import useModalHook from "../FormModal/useFormHook";
+
 const Hero = () => {
+  const { isOpen, openModal, closeModal } = useModalHook();
+
+  const handleSubmitForm = (formData) => {
+    console.log(formData);
+    closeModal();
+  };
+
   return (
     <div className="w-full z-10">
       <div className="relative sm-max:h-[25rem] overflow-hidden">
@@ -17,14 +26,17 @@ const Hero = () => {
           <p className="text-2xl font-semibold sm-max:text-xl lg:text-2xl max-w-md mx-auto mt-2 mb-16">
             Stay healthy with Alivee
           </p>
-          <Link>
-          <button className="text-white bg-[#4cc273] hover:bg-opacity-90 hover:text-white px-6 py-4 rounded-[2rem] text-sm font-medium">
-            Join Waitlist
-          </button>
-        </Link>
+          <div className="md:flex md:items-center md:space-x-4">
+            <button
+              onClick={openModal}
+              className="text-white bg-[#4cc273] hover:bg-opacity-90 hover:text-white px-6 py-4 rounded-[2rem] text-sm font-medium"
+            >
+              Join Waitlist
+            </button>
+          </div>
         </div>
-        
       </div>
+      <Modal isOpen={isOpen} onClose={closeModal} onSubmit={handleSubmitForm} />
     </div>
   );
 };
