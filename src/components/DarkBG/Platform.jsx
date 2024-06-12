@@ -24,14 +24,14 @@ const Platform = () => {
           <div className='flex flex-col mt-10'>
           
           <Link t0="">
-          <button className="bg-white flex items-center justify-center gap-2 text-black text-lg sm-max:text-xl font-semibold px-8 py-4 mt-4 rounded-lg" style={{ width: '100%' }}>
+          <button className="bg-white flex items-center justify-center gap-2 text-black text-lg sm-max:text-sm font-semibold px-8 py-4 mt-4 rounded-lg" style={{ width: '100%' }}>
           <img src={andriod} alt="apple" />
           Download Now
           </button>
           </Link>
           <Link t0="">
-          <button className="bg-white flex items-center justify-center gap-2 text-black text-lg font-semibold px-8 py-4 mt-4 rounded-lg" style={{ width: '100%' }}>
-          <img src={apple} alt="apple" />
+          <button className="bg-white flex items-center justify-center gap-2 text-black text-lg sm-max:text-sm font-semibold px-8 py-4 mt-4 rounded-lg" style={{ width: '100%' }}>
+          <img src={apple} alt="apple" className='sm-max:w-[25px]' />
           Download Now
           </button>
           </Link>
