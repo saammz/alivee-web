@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white">
           <h1 className="text-5xl sm-max:text-2xl font-bold mb-4 w-1/2 md-max:w-full sm-max:w-[80%] sm-max:mt-12">
-            Best AI management app for non-communicable conditions
+            Best AI management app for non-communicable conditions.
           </h1>
           <p className="text-2xl font-semibold sm-max:text-xl lg:text-2xl max-w-md mx-auto mt-2 mb-16">
             Stay healthy with Alivee
