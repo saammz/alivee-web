@@ -2,9 +2,9 @@ import { wellbeingTips } from "../../resources/Constant";
 
 export const WellBeing = () => {
   return (
-    <div className="pt-10 md:pt-20 flex flex-col items-center gap-16  p-3 md:p-6 bg-white">
+    <div className="pt-10 md:pt-20 w-full flex flex-col items-center lg:gap-16 gap-4 px-0  p-3 md:p-6 bg-white">
       <div className="flex flex-col gap-8 items-center">
-        <h1 className="text-[40px] leading-48 md:text-70 text-black md:leading-70 text-center font-semibold  l">
+        <h1 className="text-[34px] leading-48 md:text-[54px] text-black md:leading-70 text-center font-semibold p-3">
           Elevate Your Life: Empower Your Mind and Find Balance
         </h1>
       </div>
@@ -39,7 +39,7 @@ export const WellBeing = () => {
           </div>
         ))}
       </div>
-      <button className="p-5 px-14 text-black border-black border-[2px]  rounded-full font-semibold min-w-[120px]">
+      <button className="p-3 px-8 md:p-5 md:px-14 text-black border-black border-[2px]  rounded-full font-semibold min-w-[120px]">
         View all
       </button>
     </div>
