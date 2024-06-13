@@ -1,9 +1,8 @@
 import logo from "../../resources/logoWhite.png";
 import { PiTwitterLogoBold } from "react-icons/pi";
-import { FaInstagram } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
 import { FiYoutube } from "react-icons/fi";
-import { FaFacebook, FaLinkedin, FaRegCopyright } from "react-icons/fa6";
-import {} from "react-icons/fa6";
+import { FaRegCopyright } from "react-icons/fa";
 
 export const Footer = () => {
   return (
@@ -13,7 +12,7 @@ export const Footer = () => {
           <img src={logo} alt="logo" className="w-auto h-12" />
         </div>
         <div className="flex gap-11 flex-col md:flex-row">
-          <div className="md:border-r-[2px] md:pr-[80px] border-[#808080]  ">
+          <div className="md:border-r-[2px] md:pr-[80px] border-[#808080]">
             <p className="text-[#808080] max-w-[500px] leading-7 h-full">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
               mollitia, molestiae quas vel sint commodi repudiandae consequuntur
@@ -23,11 +22,21 @@ export const Footer = () => {
             </p>
           </div>
           <div className="h-full text-white flex gap-6">
-            <PiTwitterLogoBold className="w-16 h-16" />
-            <FaInstagram className="w-16 h-16" />
-            <FiYoutube className="w-16 h-16" />
-            <FaFacebook className="w-16 h-16" />
-            <FaLinkedin className="w-16 h-16" />
+            <a href="https://twitter.com/aliveehealth" target="_blank" rel="noopener noreferrer">
+              <PiTwitterLogoBold className="lg:w-16 lg:h-16 w-11 h-11" />
+            </a>
+            <a href="https://www.instagram.com/aliveehealth?igsh=OXJrcmNzMDdmbzN3" target="_blank" rel="noopener noreferrer">
+              <FaInstagram className="lg:w-16 lg:h-16 w-11 h-11" />
+            </a>
+            <a href="https://x.com/aliveehealth?s=21" target="_blank" rel="noopener noreferrer">
+              <FiYoutube className="lg:w-16 lg:h-16 w-11 h-11" />
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61560309546009&mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">
+              <FaFacebook className="lg:w-16 lg:h-16 w-11 h-11" />
+            </a>
+            <a href="https://www.linkedin.com/company/alivee-health/" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin className="lg:w-16 lg:h-16 w-11 h-11" />
+            </a>
           </div>
         </div>
         <div className="text-white flex items-center gap-3 mt-6">
