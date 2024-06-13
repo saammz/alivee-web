@@ -20,9 +20,9 @@ const Hero = () => {
         />
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white">
-          <h2 className="text-4xl leading-4xl md:text-7xl md:leading-7xl font-semibold sm-max:mt-14">
-          <span className="flex max-w-3xl mx-auto text-white md:mt-24 sm-max:text-xl md-max:text-6xl">
-            Best AI management app for non-communicable conditions
+        <h2 className="text-4xl leading-4xl md:text-7xl md:leading-7xl font-semibold sm-max:mt-16">
+          <span className="flex max-w-3xl mx-auto text-white md:mt-24 sm-max:text-xl">
+          Best AI management app for non-communicable conditions
           </span>
         </h2>
           <p className="text-2xl font-semibold max-w-md mx-auto mt-2 mb-16 sm-max:text-[16px]">

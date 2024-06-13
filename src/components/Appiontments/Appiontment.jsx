@@ -2,9 +2,9 @@ import { experts } from "../../resources/Constant";
 
 export const Appointment = () => {
   return (
-    <div className="pt-15 md:pt-48 flex flex-col w-full items-center lg:gap-16 px-0 p-3 md:p-6 bg-white">
+    <div className="pt-15 md:pt-48 flex flex-col w-full items-center lg:gap-16 px-0 p-3 md:p-6 md-max:pt-[2rem] bg-white">
       <div className="flex flex-col g items-center">
-        <h1 className="text-[34px] leading-48 md:text-[54px] text-black md:leading-70 text-center font-semibold  max-w-[250px] lg:max-w-2xl">
+        <h1 className="text-[34px] leading-48 md:text-[54px] text-black md:leading-70 text-center font-semibold  max-w-[250px] lg:max-w-2xl md-max:max-w-[700px]">
           Our experts will help you reach your goals
         </h1>
       </div>

@@ -2,6 +2,7 @@ import card1 from "../../resources/card1.svg";
 import card2 from "../../resources/card2.svg";
 import card3 from "../../resources/card3.svg";
 import water from "../../resources/water.webp";
+import './CustomWidth.css'
 
 const LastCard = () => {
   return (

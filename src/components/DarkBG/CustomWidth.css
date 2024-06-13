@@ -1,4 +1,4 @@
-.extra-card{
+.extra-card {
   width: 62rem;
   height: 25rem;
 }
@@ -17,10 +17,11 @@
 
 @media (min-width: 769px) and (max-width: 968px) {
   .extra-card {
-    width: 49.5rem;
+    width: 48rem;
   }
 }
-.last-card{
+
+.last-card {
   width: 62rem;
   height: 40rem;
 }
@@ -28,6 +29,7 @@
 @media (max-width: 378px) {
   .last-card {
     width: 380px;
+    height: 55rem;
   }
 }
 
