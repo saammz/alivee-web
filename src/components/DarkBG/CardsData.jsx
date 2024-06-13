@@ -13,16 +13,16 @@ import img9 from '../../resources/img9.jpg';
 export const cardsDetails = [
   {
     id: 1,
-    title1: 'Be active.',
-    title2: 'Be consistent.',
-    title3: 'Be authentic.',
+    title1: 'Be consistent..',
+    title2: 'Be authentic.',
+    title3: 'Be active.',
     category: 'Fitness',
     img: fitness,
   },
   {
     id: 2,
-    title1: 'Connected by',
-    title2: 'Purpose,',
+    title1: 'Connected',
+    title2: ' by Purpose,',
     title3: 'Driven by.',
     title4: 'Motivation.',
     category: 'Mental balance',

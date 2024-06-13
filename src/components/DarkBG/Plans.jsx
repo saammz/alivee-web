@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Premium from "./Premium";
 import FamilyPlan from "./FamilyPlan";
 import { Link } from "react-router-dom";
@@ -334,12 +334,12 @@ const Plans = () => {
         <FamilyPlan />
       </div>
       <div className="flex items-center justify-center md:flex md:items-center md:space-x-4 mb-[5rem]">
-          <Link>
-            <button className="text-white bg-[#4cc273] hover:bg-opacity-90 hover:text-white px-6 py-4 rounded-[2rem] text-sm font-medium">
-              Join Waitlist
-            </button>
-          </Link>
-        </div>
+        <Link>
+          <button className="text-white bg-[#4cc273] hover:bg-opacity-90 hover:text-white px-6 py-4 rounded-[2rem] text-sm font-medium">
+            Join Waitlist
+          </button>
+        </Link>
+      </div>
     </>
   );
 };
