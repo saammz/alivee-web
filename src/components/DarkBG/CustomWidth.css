@@ -1,0 +1,47 @@
+.extra-card {
+  width: 62rem;
+  height: 25rem;
+}
+
+@media (max-width: 378px) {
+  .extra-card {
+    width: 380px;
+  }
+}
+
+@media (min-width: 379px) and (max-width: 768px) {
+  .extra-card {
+    width: 380px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 968px) {
+  .extra-card {
+    width: 48rem;
+  }
+}
+
+.last-card {
+  width: 62rem;
+  height: 40rem;
+}
+
+@media (max-width: 378px) {
+  .last-card {
+    width: 380px;
+    height: 55rem;
+  }
+}
+
+@media (min-width: 379px) and (max-width: 768px) {
+  .last-card {
+    width: 380px;
+    height: 60rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 968px) {
+  .last-card {
+    width: 49.5rem;
+  }
+}

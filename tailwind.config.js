@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+       backgroundColor: {
+        default: '#ffffff',
+      },
       screens: {
         'xsm-max': { 'max': '378px' },
         'sm-max': { 'max': '768px' },
@@ -13,6 +16,8 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
 }
 

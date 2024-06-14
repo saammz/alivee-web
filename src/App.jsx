@@ -1,16 +1,19 @@
-import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Intro from './components/Intro/Intro';
-const App=()=> {
+import Navbar from './components/Navbar/Navbar';
+import Home from './pages/Home/Home';
+import { Footer } from './components/Footer/Footer';
+
+const App = () => {
   return (
-      <Router>
-      <Intro/>
+    <Router>
+      <Navbar />
       <Routes>
-        {/* <Route> */}
+        <Route path="/" element={<Home />} />
       </Routes>
-      </Router>    
-  )
+      <Footer />
+    </Router>
+  );
 }
 
-export default App
+export default App;
