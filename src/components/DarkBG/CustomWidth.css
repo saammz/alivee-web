@@ -1,3 +1,9 @@
+.plans-green{
+  width: 335px;
+  min-height: 400px;
+}
+
+
 .more-cards{
   max-width:480px;
   height:250px;
@@ -20,19 +26,19 @@
 }
 
 @media (min-width: 769px) and (max-width: 968px) {
-  .more-cards, .more-cards-high, .more-cards-first, .more-cards-second, .more-cards-third {
+  .more-cards, .more-cards-high, .more-cards-first, .more-cards-second, .more-cards-third, .plans-green {
     width:370px;
   }
 }
 
 @media (min-width: 379px) and (max-width: 768px) {
-  .more-cards, .more-cards-high, .more-cards-first, .more-cards-second, .more-cards-third  {
+  .more-cards, .more-cards-high, .more-cards-first, .more-cards-second, .more-cards-third ,.plans-green{
     width: 370px;
   }
 }
 
 @media (min-width: 320px) and (max-width: 380px){
-  .more-cards, .more-cards-high, .more-cards-first, .more-cards-second, .more-cards-third {
+  .more-cards, .more-cards-high, .more-cards-first, .more-cards-second, .more-cards-third, .plans-green {
     width: 300px;
   }
 }
