@@ -1,6 +1,7 @@
 import HeroSection from "../../resources/Hero.webp";
 import Modal from "../FormModal/FormModal";
 import useModalHook from "../FormModal/useFormHook";
+import Button from "../Shared/Button";
 
 const Hero = () => {
   const { isOpen, openModal, closeModal } = useModalHook();
@@ -21,7 +22,7 @@ const Hero = () => {
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white">
         <h2 className="text-4xl leading-4xl md:text-7xl md:leading-7xl font-semibold sm-max:mt-16">
-          <span className="flex max-w-3xl mx-auto text-white md:mt-24 sm-max:text-xl">
+          <span className="flex max-w-3xl mx-auto text-white md:mt-24 sm-max:text-2xl sm-max:px-4">
           Best AI management app for non-communicable conditions
           </span>
         </h2>
@@ -29,12 +30,8 @@ const Hero = () => {
             Stay healthy with Alivee
           </p>
           <div className="md:flex md:items-center md:space-x-4">
-            <button
-              onClick={openModal}
-              className="text-white bg-[#4cc273] hover:bg-opacity-90 hover:text-white px-6 py-4 rounded-[2rem] text-sm font-medium"
-            >
-              Join Waitlist
-            </button>
+
+          <Button onclick={openModal} text="Join Waitlist" className="sm-max:px-4 sm-max:py-2" />
           </div>
         </div>
       </div>

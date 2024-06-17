@@ -23,7 +23,7 @@ export const cardsDetails = [
     id: 2,
     title1: 'Connected',
     title2: ' by Purpose,',
-    title3: 'Driven by.',
+    title3: 'Driven by',
     title4: 'Motivation.',
     category: 'Mental balance',
     img: mentalBalance,
