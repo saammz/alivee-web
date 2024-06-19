@@ -9,7 +9,7 @@ import {FAQ} from "../FAQ/FAQ"
 
 export const LowerSection = () =>{
     return(
-        <div className="flex flex-col items-center w-full justify-center max-w-[1800px] ">
+        <div className="flex flex-col items-center w-full justify-center max-w-[1800px] xl:max-w-full ">
             <Appointment />
             <Tips />
             <Nutrition />
