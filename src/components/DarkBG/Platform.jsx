@@ -31,9 +31,9 @@ const Platform = () => {
                 Download Now
               </button>
             </Link>
-            <Link t0="">
+            <Link to="">
               <button
-                className="bg-white flex items-center justify-center gap-2 text-black text-lg sm-max:text-sm font-semibold px-8 py-4 mt-4 rounded-lg"
+                className="bg-white flex items-center justify-center gap-2 text-black text-lg sm-max:text-sm font-semibold px-8 py-4 mt-4 rounded-lg sm-max:w-full"
                 style={{ width: "100%" }}
               >
                 <img src={apple} alt="apple" className="sm-max:w-[25px]" />

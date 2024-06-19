@@ -2,17 +2,20 @@ import { useState } from "react";
 import Premium from "./Premium";
 import FamilyPlan from "./FamilyPlan";
 import { Link } from "react-router-dom";
+import { useRef } from "react";
 
 const Plans = () => {
   const [showYearly, setShowYearly] = useState(false);
+  const planRef = useRef(null);
+  console.log(planRef.current);
 
   return (
     <>
-      <h1 className="mt-[10rem] text-7xl text-center text-white mb-14 font-semibold sm-max:text-4xl">
+      <h1 className="mt-[10rem] text-7xl text-center text-white mb-14 font-semibold sm-max:text-4xl" id="plan" ref={planRef}>
         Explore Our Plans
       </h1>
       <div className="w-full flex justify-center mb-[3rem] gap-4 sm-max:flex sm-max:flex-col sm-max:items-center md-max:flex-wrap">
-        <div className="h-full rounded-2xl p-8 min-h-[400px] bg-center bg-cover bg-green-dark hover:bg-[#90d7a622] border-[#4cc273] border-2 w-[350px] sm-max:w-[335px]">
+        <div className="plans-green h-full rounded-2xl p-8 bg-center bg-cover bg-green-dark hover:bg-[#90d7a622] border-[#4cc273] border-2">
           <div className="flex flex-col gap-8 text-white">
             <div className="flex items-center justify-between">
               <h3 className="text-4xl leading-32 md:text-40 md:leading-40 font-semibold">

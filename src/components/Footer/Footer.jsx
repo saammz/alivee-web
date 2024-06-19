@@ -21,21 +21,21 @@ export const Footer = () => {
               similique accusantium nemo autem
             </p>
           </div>
-          <div className="h-full text-white flex gap-6">
+          <div className="h-full text-white flex gap-6 xsm-max:gap-3">
             <a href="https://twitter.com/aliveehealth" target="_blank" rel="noopener noreferrer">
-              <PiTwitterLogoBold className="lg:w-16 lg:h-16 w-11 h-11" />
+              <PiTwitterLogoBold className="lg:w-16 lg:h-16 w-11 h-11 xsm-max:w-10 xsm-max:h-10" />
             </a>
             <a href="https://www.instagram.com/aliveehealth?igsh=OXJrcmNzMDdmbzN3" target="_blank" rel="noopener noreferrer">
-              <FaInstagram className="lg:w-16 lg:h-16 w-11 h-11" />
+              <FaInstagram className="lg:w-16 lg:h-16 w-11 h-11 xsm-max:w-10 xsm-max:h-10" />
             </a>
             <a href="https://x.com/aliveehealth?s=21" target="_blank" rel="noopener noreferrer">
-              <FiYoutube className="lg:w-16 lg:h-16 w-11 h-11" />
+              <FiYoutube className="lg:w-16 lg:h-16 w-11 h-11 xsm-max:w-10 xsm-max:h-10" />
             </a>
             <a href="https://www.facebook.com/profile.php?id=61560309546009&mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">
-              <FaFacebook className="lg:w-16 lg:h-16 w-11 h-11" />
+              <FaFacebook className="lg:w-16 lg:h-16 w-11 h-11 xsm-max:w-10 xsm-max:h-10" />
             </a>
             <a href="https://www.linkedin.com/company/alivee-health/" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin className="lg:w-16 lg:h-16 w-11 h-11" />
+              <FaLinkedin className="lg:w-16 lg:h-16 w-11 h-11 xsm-max:w-10 xsm-max:h-10" />
             </a>
           </div>
         </div>
