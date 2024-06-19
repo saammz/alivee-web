@@ -24,10 +24,10 @@ const MoreCards = () => {
           <div className="flex flex-col items-center justify-center gap-8">
             <div className="more-cards flex justify-between px-1 bg-[#d8e8f0] rounded-2xl md:rounded-20">
               <div className="p-8 pr-0 xsm-max:p-4">
-                <h3 className="text-4xl leading-32 md:text-40 md:leading-40 font-semibold text-black xsm-max:text-xl md:text-3xl">
+                <h3 className="text-4xl leading-32 md:text-40 md:leading-40 font-semibold text-black xsm-max:text-xl sm-max:text-[22px] md:text-3xl">
                   Connect with your devices
                 </h3>
-                <h4 className="text-2xl leading-18 md:text-20 md:leading-20 font-medium mt-6 text-black xsm-max:text-xl">
+                <h4 className="text-2xl leading-18 md:text-20 md:leading-20 font-medium mt-6 text-black xsm-max:text-xl sm-max:text-[20px] ">
                   Sync with your wearables.
                 </h4>
               </div>
