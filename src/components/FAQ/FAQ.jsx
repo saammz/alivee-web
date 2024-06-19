@@ -2,10 +2,10 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 
 export const FAQ = () => {
   return (
-    <div className="flex w-full flex-col gap-4 pb-20 p-8 items-center justify-center bg-[#87CEEB20]">
-      <div className="flex flex-col lg:flex-row  items-center justify-center">
+    <div className="flex w-full xl:max-w-full 2xl:max-w-full flex-col gap-4 pb-20 p-8 items-center justify-center bg-[#87CEEB20]">
+      <div className="flex flex-col lg:flex-row  items-center justify-center xl:gap-10">
         <div>
-          <h1 className="text-[34px] md:text-[54px] text-center font-bold text-black mb-4 max-w-xl">
+          <h1 className="text-[34px] md:text-[54px] text-center font-bold text-black mb-4 max-w-xl xl:text-[5rem]">
             Frequently Asked Questions{" "}
           </h1>
         </div>

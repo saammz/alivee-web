@@ -11,7 +11,7 @@ export const Footer = () => {
         <div className="flex items-center justify-start p-4">
           <img src={logo} alt="logo" className="w-auto h-12" />
         </div>
-        <div className="flex gap-11 flex-col md:flex-row">
+        <div className="flex gap-11 flex-col md:flex-row xl:flex xl:justify-between">
           <div className="md:border-r-[2px] md:pr-[80px] border-[#808080]">
             <p className="text-[#808080] max-w-[500px] leading-7 h-full">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime

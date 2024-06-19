@@ -1,13 +1,22 @@
 import { useState } from "react";
 import Premium from "./Premium";
 import FamilyPlan from "./FamilyPlan";
-import { Link } from "react-router-dom";
+import useModalHook from "../FormModal/useFormHook";
 import { useRef } from "react";
+import Button from "../Shared/Button";
+import Modal from "../FormModal/FormModal";
 
 const Plans = () => {
   const [showYearly, setShowYearly] = useState(false);
   const planRef = useRef(null);
   console.log(planRef.current);
+
+  const { isOpen, openModal, closeModal } = useModalHook();
+
+  const handleSubmitForm = (formData) => {
+    console.log(formData);
+    closeModal();
+  };
 
   return (
     <>
@@ -336,13 +345,10 @@ const Plans = () => {
         <Premium />
         <FamilyPlan />
       </div>
-      <div className="flex items-center justify-center md:flex md:items-center md:space-x-4 mb-[5rem]">
-        <Link>
-          <button className="text-white bg-[#4cc273] hover:bg-opacity-90 hover:text-white px-6 py-4 rounded-[2rem] text-sm font-medium">
-            Join Waitlist
-          </button>
-        </Link>
+      <div className="flex items-center justify-center mb-10">
+      <Button onclick={openModal} text="Join Waitlist" className="sm-max:px-4 sm-max:py-2" />
       </div>
+      <Modal isOpen={isOpen} onClose={closeModal} onSubmit={handleSubmitForm} />
     </>
   );
 };
