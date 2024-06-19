@@ -10,6 +10,7 @@ export const Appointment = () => {
     console.log(formData);
     closeModal();
   };
+  
   return (
     <div className="pt-15 md:pt-28 flex flex-col w-full items-center lg:gap-16 px-0 p-3 md:p-6 bg-white">
       <div className="flex flex-col g items-center">
