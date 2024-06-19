@@ -20,7 +20,8 @@ export const Tips = () => {
             <div className="h-[70%] w-full relative  justify-center flex">
               <img
                 src={card.img}
-                className="rounded-box object-cover size-full"
+                className="rounded-box object-cover size-full "
+                style={{ height: "300px" }}
               />
               <div className="card-body absolute bottom-0 items-center">
                 <div className="bg-white p-4 py-3 text-[14px] md:text-[18px] font-semibold rounded-md ">
@@ -35,7 +36,7 @@ export const Tips = () => {
                 </div>
                 <h2 className="text-lg  text-black">{card.userName}</h2>
               </div>
-              <p className="font-semibold text-[18px] md:text-[22px]">
+              <p className="font-semibold text-[18px] md:text-[18px]">
                 {card.topic}
               </p>
             </div>

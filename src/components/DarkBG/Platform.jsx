@@ -1,7 +1,7 @@
-import { Link } from 'react-router-dom';
-import device from '../../resources/available-device.webp'
-import andriod from '../../resources/andriod.png';
-import apple from '../../resources/apple.png';
+import { Link } from "react-router-dom";
+import device from "../../resources/available-device.webp";
+import andriod from "../../resources/andriod.png";
+import apple from "../../resources/apple.png";
 
 const Platform = () => {
   return (
@@ -21,20 +21,25 @@ const Platform = () => {
           <h1 className="text-6xl leading-48 md:text-70 md:leading-70 sm-max:text-2xl font-semibold flex lg:max-w-md">
             Available on the App Store & Play Store
           </h1>
-          <div className='flex flex-col mt-10'>
-          
-          <Link t0="">
-          <button className="bg-white flex items-center justify-center gap-2 text-black text-lg sm-max:text-sm font-semibold px-8 py-4 mt-4 rounded-lg" style={{ width: '100%' }}>
-          <img src={andriod} alt="apple" />
-          Download Now
-          </button>
-          </Link>
-          <Link t0="">
-          <button className="bg-white flex items-center justify-center gap-2 text-black text-lg sm-max:text-sm font-semibold px-8 py-4 mt-4 rounded-lg" style={{ width: '100%' }}>
-          <img src={apple} alt="apple" className='sm-max:w-[25px]' />
-          Download Now
-          </button>
-          </Link>
+          <div className="flex flex-col mt-10">
+            <Link t0="">
+              <button
+                className="bg-white flex items-center justify-center gap-2 text-black text-lg sm-max:text-sm font-semibold px-8 py-4 mt-4 rounded-lg"
+                style={{ width: "100%" }}
+              >
+                <img src={andriod} alt="apple" />
+                Download Now
+              </button>
+            </Link>
+            <Link to="">
+              <button
+                className="bg-white flex items-center justify-center gap-2 text-black text-lg sm-max:text-sm font-semibold px-8 py-4 mt-4 rounded-lg sm-max:w-full"
+                style={{ width: "100%" }}
+              >
+                <img src={apple} alt="apple" className="sm-max:w-[25px]" />
+                Download Now
+              </button>
+            </Link>
           </div>
         </div>
       </div>
