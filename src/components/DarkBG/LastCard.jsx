@@ -25,7 +25,7 @@ const LastCard = () => {
 
           <div className="absolute bottom-[1rem] pb-6">
             <h3 className="text-4xl sm-max:text-3xl leading-32 md:text-40 md:leading-40 font-semibold mt-6 text-white">
-            Medical Consultation:
+            Medical Consultation
             </h3>
             <h4 className="text-xl sm-max:text-md leading-18 md:text-20 md:leading-20 font-medium mt-4 text-white">
             Access professional medical advice and consultations
@@ -38,7 +38,7 @@ const LastCard = () => {
 
             <div className="absolute bottom-[1rem] pb-6 px-6">
             <h3 className="text-4xl sm-max:text-3xl leading-32 md:text-40 md:leading-40 font-bold mt-6 text-black">
-            Medication and Hydration Tracking:
+            Medication and Hydration Tracking
             </h3>
             <h4 className="text-xl sm-max:text-md leading-18 md:text-20 md:leading-20 font-medium mt-4 text-black">
             Never miss a dose or a glass of water with our easy medication and hydration management.
