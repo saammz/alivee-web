@@ -43,7 +43,7 @@ const MoreCards = () => {
             <div className="more-cards-high relative rounded-2xl md:rounded-20">
               <div className="absolute top-1/2 p-8 pr-0">
                 <h3 className="text-4xl leading-32 md:text-40 md:leading-40 font-semibold text-center flex flex-col max-w-md text-white md-max:text-3xl ">
-                  Remote monitoring:
+                  Remote monitoring
                   <span className="font-medium text-xl">
                     Alivee can detect emergency states using you or your family
                     member&apos;s connected wearable device.
@@ -81,7 +81,7 @@ const MoreCards = () => {
               </div>
               <div className="mr-auto px-6 xsm-max:flex xsm-max:flex-col xsm-max:gap-24">
                 <h3 className="text-5xl leading-32 md:text-40 md:leading-40 font-semibold text-black xsm-max:text-[30px]">
-                Tailored Fitness Plans:
+                Tailored Fitness Plans
                 </h3>
                 <h4 className="text-2xl mt-6 leading-18 md:text-20 md:leading-20 font-medium text-black">
                 Personalized fitness plans to <br /> match your specific needs and goals.
@@ -117,7 +117,7 @@ const MoreCards = () => {
             <div className="more-cards-second rounded-2xl md:rounded-20 bg-center bg-cover flex flex-col items-center justify-between p-0 bg-yellow-medium overflow-hidden bg-[#0a1b22]">
               <div className="p-8">
                 <h3 className="text-5xl leading-32 md:text-40 md:leading-40 font-semibold mt-6 text-white xsm-max:text-[35px]">
-                  Health Insights:
+                  Health Insights
                 </h3>
                 <h4 className="text-2xl leading-18 md:text-20 md:leading-20 font-medium mt-4 text-white">
                   Gain valuable insights into health trends and understand your

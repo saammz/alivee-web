@@ -5,6 +5,7 @@ import useModalHook from "../FormModal/useFormHook";
 import { useRef } from "react";
 import Button from "../Shared/Button";
 import Modal from "../FormModal/FormModal";
+import circleDot from '../../resources/dot.svg';
 
 const Plans = () => {
   const [showYearly, setShowYearly] = useState(false);
@@ -76,134 +77,43 @@ const Plans = () => {
             {showYearly ? (
               <ul className="flex flex-col gap-4">
                 <li className="flex items-center gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-[#4cc273]"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
+                  <img alt="dot" width="20" height="20" src={circleDot}/>
                   <p className="text-12 leading-12 font-medium text-white">
                     Personalized plans
                   </p>
                 </li>
                 <li className="flex items-center gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-[#4cc273]"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
+                  <img alt="dot" width="20" height="20" src={circleDot}/>
                   <p className="text-12 leading-12 font-medium text-white">
                     Activities tracking
                   </p>
                 </li>
                 <li className="flex items-center gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-[#4cc273]"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
+                  <img alt="dot" width="20" height="20" src={circleDot}/>
                   <p className="text-12 leading-12 font-medium text-white">
                     Access to exclusive content
                   </p>
                 </li>
                 <li className="flex items-center gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-[#4cc273]"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
+                  <img alt="dot" width="20" height="20" src={circleDot}/>
                   <p className="text-12 leading-12 font-medium text-white">
                     Access to programs
                   </p>
                 </li>
                 <li className="flex items-center gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-[#4cc273]"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
+                  <img alt="dot" width="20" height="20" src={circleDot}/>
                   <p className="text-12 leading-12 font-medium text-white">
                     Access to challenges
                   </p>
                 </li>
                 <li className="flex items-center gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-[#4cc273]"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
+                  <img alt="dot" width="20" height="20" src={circleDot}/>
                   <p className="text-12 leading-12 font-medium text-white">
                     Sync with your wearable
                   </p>
                 </li>
                 <li className="flex items-center gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-[#4cc273]"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
+                  <img alt="dot" width="20" height="20" src={circleDot}/>
                   <p className="text-12 leading-12 font-medium text-white">
                     Sync with your wearable
                   </p>
@@ -213,134 +123,43 @@ const Plans = () => {
               <ul className="flex flex-col gap-4">
                 {/* Default monthly options */}
                 <li className="flex items-center gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-[#4cc273]"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
+                  <img alt="dot" width="20" height="20" src={circleDot}/>
                   <p className="text-12 leading-12 font-medium text-white">
                     Personalized plans
                   </p>
                 </li>
                 <li className="flex items-center gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-[#4cc273]"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
+                  <img alt="dot" width="20" height="20" src={circleDot}/>
                   <p className="text-12 leading-12 font-medium text-white">
                     Actives tracking
                   </p>
                 </li>
                 <li className="flex items-center gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-[#4cc273]"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
+                  <img alt="dot" width="20" height="20" src={circleDot}/>
                   <p className="text-12 leading-12 font-medium text-white">
                     Access to exclusive content
                   </p>
                 </li>
                 <li className="flex items-center gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-[#4cc273]"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
+                  <img alt="dot" width="20" height="20" src={circleDot}/>
                   <p className="text-12 leading-12 font-medium text-white">
                     Access to programs
                   </p>
                 </li>
                 <li className="flex items-center gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-[#4cc273]"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
+                  <img alt="dot" width="20" height="20" src={circleDot}/>
                   <p className="text-12 leading-12 font-medium text-white">
                     Access to challenges
                   </p>
                 </li>
                 <li className="flex items-center gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-[#4cc273]"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
+                  <img alt="dot" width="20" height="20" src={circleDot}/>
                   <p className="text-12 leading-12 font-medium text-white">
                     Sync with your wearable
                   </p>
                 </li>
                 <li className="flex items-center gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 text-[#4cc273]"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
+                  <img alt="dot" width="20" height="20" src={circleDot}/>
                   <p className="text-12 leading-12 font-medium text-gray-500">
                     Sync with your wearable
                   </p>
