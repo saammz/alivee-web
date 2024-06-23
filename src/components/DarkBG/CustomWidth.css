@@ -35,11 +35,17 @@
   .more-cards, .more-cards-high, .more-cards-first, .more-cards-second, .more-cards-third ,.plans-green{
     width: 370px;
   }
+  .more-cards-high, .more-cards-third{
+    height: 500px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 380px){
   .more-cards, .more-cards-high, .more-cards-first, .more-cards-second, .more-cards-third, .plans-green {
-    width: 300px;
+    width: 318px;
+  }
+  .more-cards-high, .more-cards-first, .more-cards-second, .more-cards-third{
+    height: 500px;
   }
 }
 
@@ -55,7 +61,7 @@
 }
 @media (min-width: 320px) and (max-width: 380px){
   .card{
-    width: 300px;
+    width: 315px;
   
   }
 }
@@ -97,7 +103,7 @@
 }
 @media (min-width: 320px) and (max-width: 380px){
   .extra-card{
-    width: 300px;
+    width: 318px;
   
   }
 }
@@ -128,7 +134,7 @@
 }
 @media (min-width: 320px) and (max-width: 380px){
   .last-card{
-    width: 300px;
+    width: 3180px;
   
   }
 }
