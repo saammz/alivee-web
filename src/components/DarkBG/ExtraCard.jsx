@@ -1,4 +1,4 @@
-import balance from "../../resources/balance.webp";
+import comunity from "../../resources/comunity.jpg";
 import './CustomWidth.css'
 import circleDot from '../../resources/dot.svg';
 
@@ -8,7 +8,7 @@ const ExtraCard = () => {
     <div className="extra-card">
         <div className="extra-abs relative w-full h-full bg-[#d7e8f0] rounded-2xl overflow-hidden">
           <img
-            src={balance}
+            src={comunity}
             alt=""
             className="absolute object-cover h-full right-0 top-0 w-[50%] rounded-r-2xl filter-blur-left sm:max-h-[85vh] sm-max:w-full md:max-h-full"
           />
@@ -40,7 +40,7 @@ const ExtraCard = () => {
             </div>
             <div className="flex items-center gap-1 text-[15px] text-black font-semibold sm-max:text-white sm-max:text-[16px] sm-max:flex sm-max:items-start">
             <img alt="dot" width="20" height="20" src={circleDot}/>
-              <p className="sm-max:text-[14px] sm-max:leading- font-medium5">Access resources and advice from others who have successfully managed their conditions.
+              <p className="sm-max:text-[14px] sm-max:leading- font-medium5">Access resources and advice from others who have successfully managed their conditions.
               </p>
             </div>
           </div>
