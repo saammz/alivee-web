@@ -1,14 +1,14 @@
-import balance from "../../resources/balance.webp";
-import "./CustomWidth.css";
-import circleDot from "../../resources/dot.svg";
+import comunity from "../../resources/comunity.jpg";
+import './CustomWidth.css'
+import circleDot from '../../resources/dot.svg';
 
 const ExtraCard = () => {
   return (
     <>
-      <div className="extra-card">
+    <div className="extra-card">
         <div className="extra-abs relative w-full h-full bg-[#d7e8f0] rounded-2xl overflow-hidden">
           <img
-            src={balance}
+            src={comunity}
             alt=""
             className="absolute object-cover h-full right-0 top-0 w-[50%] rounded-r-2xl filter-blur-left sm:max-h-[85vh] sm-max:w-full md:max-h-full"
           />
@@ -17,37 +17,30 @@ const ExtraCard = () => {
 
           <div className="absolute flex flex-col items-start justify-start gap-2 mt-6 mx-6">
             <h1 className="text-3xl text-black font-bold sm-max:w-full sm-max:text-2xl sm-max:text-white">
-              Community Support:
+            Community Support:  
             </h1>
-            <div className="text-[15px] text-black font-semibold sm-max:text-white sm-max:text-[16px]mt-2">
-              {" "}
-              <p className="sm-max:text-[14px] sm-max:leading- font-medium5">
-                <span>1. </span>Connect with others facing similar health
-                challenges.
+            <div className="flex items-center gap-1 text-[15px] text-black font-semibold sm-max:text-white sm-max:text-[16px] sm-max:flex sm-max:items-start mt-3 xsm-max:mt-1">
+            <img alt="dot" width="20" height="20" src={circleDot}/>
+              <p className="sm-max:text-[14px] sm-max:leading- font-medium5">Connect with others facing similar health challenges.</p>
+            </div>
+            <div className="flex items-center gap-1 text-[15px] text-black font-semibold sm-max:text-white sm-max:text-[16px] sm-max:flex sm-max:items-start">
+            <img alt="dot" width="20" height="20" src={circleDot}/>
+              <p className="sm-max:text-[14px] sm-max:leading- font-medium5">Share experiences, tips, and encouragement to foster a supportive network.
               </p>
             </div>
-            <div className="text-[15px] text-black font-semibold sm-max:text-white sm-max:text-[16px]">
-              <p className="sm-max:text-[14px] sm-max:leading- font-medium5">
-                <span>2. </span>Share experiences, tips, and encouragement to
-                foster a supportive network.
+            <div className="flex items-center gap-1 text-[15px] text-black font-semibold sm-max:text-white sm-max:text-[16px] sm-max:flex sm-max:items-start">
+            <img alt="dot" width="20" height="20" src={circleDot}/>
+              <p className="sm-max:text-[14px] sm-max:leading- font-medium5">Participate in group discussions and activities designed to enhance well-being.
               </p>
             </div>
-            <div className="text-[15px] text-black font-semibold sm-max:text-white sm-max:text-[16px]">
-              <p className="sm-max:text-[14px] sm-max:leading- font-medium5">
-                <span>3. </span>Participate in group discussions and activities
-                designed to enhance well-being.
+            <div className="flex items-center gap-1 text-[15px] text-black font-semibold sm-max:text-white sm-max:text-[16px] sm-max:flex sm-max:items-start">
+            <img alt="dot" width="20" height="20" src={circleDot}/>
+              <p className="sm-max:text-[14px] sm-max:leading- font-medium5">Gain emotional support from a community that understands your journey.
               </p>
             </div>
-            <div className="text-[15px] text-black font-semibold sm-max:text-white sm-max:text-[16px]">
-              <p className="sm-max:text-[14px] sm-max:leading- font-medium5">
-                <span>4. </span>Gain emotional support from a community that
-                understands your journey.
-              </p>
-            </div>
-            <div className="text-[15px] text-black font-semibold sm-max:text-white sm-max:text-[16px]">
-              <p className="sm-max:text-[14px] sm-max:leading- font-medium5">
-                <span>5. </span>Access resources and advice from others who have
-                successfully managed their conditions.
+            <div className="flex items-center gap-1 text-[15px] text-black font-semibold sm-max:text-white sm-max:text-[16px] sm-max:flex sm-max:items-start">
+            <img alt="dot" width="20" height="20" src={circleDot}/>
+              <p className="sm-max:text-[14px] sm-max:leading- font-medium5">Access resources and advice from others who have successfully managed their conditions.
               </p>
             </div>
           </div>
