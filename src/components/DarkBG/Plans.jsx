@@ -5,7 +5,7 @@ import useModalHook from "../FormModal/useFormHook";
 import { useRef } from "react";
 import Button from "../Shared/Button";
 import Modal from "../FormModal/FormModal";
-import circleDot from '../../resources/dot.svg';
+import circleDot from "../../resources/dot.svg";
 
 const Plans = () => {
   const [showYearly, setShowYearly] = useState(false);
@@ -61,10 +61,18 @@ const Plans = () => {
                   </button>
                 </div>
               </div>
-              <div className="flex gap-4 items-baseline mt-2">
-                <h3 className="text-4xl leading-40 md:text-48 md:leading-48 font-semibold">
-                  50,15€ <span className="text-base line-through">59,00€</span>
-                </h3>
+              <div className="flex gap-1 items-baseline mt-2">
+                {showYearly ? (
+                  <h3 className="text-4xl leading-40 md:text-48 md:leading-48 font-medium sm-max:text-2xl">
+                    ₦100,000{" "}
+                    <span className="text-base line-through"> ₦120,000</span>
+                  </h3>
+                ) : (
+                  <h3 className="text-4xl leading-40 md:text-48 md:leading-48 font-medium sm-max:text-2xl">
+                    ₦7,500{" "}
+                    <span className="text-base line-through"> ₦10,000</span>
+                  </h3>
+                )}
                 <h4 className="text-16 leading-16 md:text-18 md:leading-18 font-medium">
                   /{showYearly ? "yearly" : "monthly"}
                 </h4>
@@ -77,43 +85,43 @@ const Plans = () => {
             {showYearly ? (
               <ul className="flex flex-col gap-4">
                 <li className="flex items-center gap-2">
-                  <img alt="dot" width="20" height="20" src={circleDot}/>
+                  <img alt="dot" width="20" height="20" src={circleDot} />
                   <p className="text-12 leading-12 font-medium text-white">
                     Personalized plans
                   </p>
                 </li>
                 <li className="flex items-center gap-2">
-                  <img alt="dot" width="20" height="20" src={circleDot}/>
+                  <img alt="dot" width="20" height="20" src={circleDot} />
                   <p className="text-12 leading-12 font-medium text-white">
                     Activities tracking
                   </p>
                 </li>
                 <li className="flex items-center gap-2">
-                  <img alt="dot" width="20" height="20" src={circleDot}/>
+                  <img alt="dot" width="20" height="20" src={circleDot} />
                   <p className="text-12 leading-12 font-medium text-white">
                     Access to exclusive content
                   </p>
                 </li>
                 <li className="flex items-center gap-2">
-                  <img alt="dot" width="20" height="20" src={circleDot}/>
+                  <img alt="dot" width="20" height="20" src={circleDot} />
                   <p className="text-12 leading-12 font-medium text-white">
                     Access to programs
                   </p>
                 </li>
                 <li className="flex items-center gap-2">
-                  <img alt="dot" width="20" height="20" src={circleDot}/>
+                  <img alt="dot" width="20" height="20" src={circleDot} />
                   <p className="text-12 leading-12 font-medium text-white">
                     Access to challenges
                   </p>
                 </li>
                 <li className="flex items-center gap-2">
-                  <img alt="dot" width="20" height="20" src={circleDot}/>
+                  <img alt="dot" width="20" height="20" src={circleDot} />
                   <p className="text-12 leading-12 font-medium text-white">
                     Sync with your wearable
                   </p>
                 </li>
                 <li className="flex items-center gap-2">
-                  <img alt="dot" width="20" height="20" src={circleDot}/>
+                  <img alt="dot" width="20" height="20" src={circleDot} />
                   <p className="text-12 leading-12 font-medium text-white">
                     Sync with your wearable
                   </p>
@@ -123,43 +131,43 @@ const Plans = () => {
               <ul className="flex flex-col gap-4">
                 {/* Default monthly options */}
                 <li className="flex items-center gap-2">
-                  <img alt="dot" width="20" height="20" src={circleDot}/>
+                  <img alt="dot" width="20" height="20" src={circleDot} />
                   <p className="text-12 leading-12 font-medium text-white">
                     Personalized plans
                   </p>
                 </li>
                 <li className="flex items-center gap-2">
-                  <img alt="dot" width="20" height="20" src={circleDot}/>
+                  <img alt="dot" width="20" height="20" src={circleDot} />
                   <p className="text-12 leading-12 font-medium text-white">
                     Actives tracking
                   </p>
                 </li>
                 <li className="flex items-center gap-2">
-                  <img alt="dot" width="20" height="20" src={circleDot}/>
+                  <img alt="dot" width="20" height="20" src={circleDot} />
                   <p className="text-12 leading-12 font-medium text-white">
                     Access to exclusive content
                   </p>
                 </li>
                 <li className="flex items-center gap-2">
-                  <img alt="dot" width="20" height="20" src={circleDot}/>
+                  <img alt="dot" width="20" height="20" src={circleDot} />
                   <p className="text-12 leading-12 font-medium text-white">
                     Access to programs
                   </p>
                 </li>
                 <li className="flex items-center gap-2">
-                  <img alt="dot" width="20" height="20" src={circleDot}/>
+                  <img alt="dot" width="20" height="20" src={circleDot} />
                   <p className="text-12 leading-12 font-medium text-white">
                     Access to challenges
                   </p>
                 </li>
                 <li className="flex items-center gap-2">
-                  <img alt="dot" width="20" height="20" src={circleDot}/>
+                  <img alt="dot" width="20" height="20" src={circleDot} />
                   <p className="text-12 leading-12 font-medium text-white">
                     Sync with your wearable
                   </p>
                 </li>
                 <li className="flex items-center gap-2">
-                  <img alt="dot" width="20" height="20" src={circleDot}/>
+                  <img alt="dot" width="20" height="20" src={circleDot} />
                   <p className="text-12 leading-12 font-medium text-gray-500">
                     Sync with your wearable
                   </p>
