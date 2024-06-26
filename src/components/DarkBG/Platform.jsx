@@ -5,7 +5,7 @@ import apple from "../../resources/apple.png";
 
 const Platform = () => {
   return (
-    <div className="flex items-center justify-center sm-max:flex sm-max:flex-col sm-max:px-20">
+    <div className="flex items-center justify-center sm-max:flex sm-max:flex-col sm-max:px-20 xsm-max:px-10">
       <div className="">
         <img
           alt="available on device"
@@ -19,7 +19,7 @@ const Platform = () => {
       <div className="text-white">
         <div className="grid">
           <h1 className="text-6xl leading-48 md:text-70 md:leading-70 sm-max:text-2xl font-semibold flex lg:max-w-md">
-            Available on the App Store & Play Store
+           Coming Soon on App Store & Play Store
           </h1>
           <div className="flex flex-col mt-10">
             <Link t0="">

@@ -15,7 +15,7 @@ const MoreCards = () => {
       <div className="flex flex-col items-center">
         <div className="flex flex-col gap-8 mb-1 md:mb-20 text-center sm-max:gap-2">
           <h3 className="text-7xl sm-max:text-2xl leading-18 md:text-20 md:leading-20 font-medium leading-[5rem] text-white">
-            What you get by being <br /> Aliveer?
+            What Alivee Offers
           </h3>
           <h3 className="text-3xl sm-max:text-xl leading-18 md:text-20 md:leading-20 font-medium text-gray-400">
             Your goals. Your pace. Your terms.
@@ -58,10 +58,10 @@ const MoreCards = () => {
 
             <div className="more-cards relative overflow-hidden flex justify-between bg-[#0a1c24] rounded-2xl md:rounded-20">
               <div className="w-[67%] p-6 pr-0 sm-max:px-4 sm-max:w-[70%]">
-                <h3 className="text-4xl md:text-40 md:leading-40 w-[80%] font-bold text-white sm-max:text-[26px] md:text-3xl sm-max:leading-8">
+                <h3 className="text-4xl md:text-40 md:leading-40 w-[80%] font-bold text-white sm-max:text-[26px] md:text-3xl sm-max:leading-7">
                 Customized Nutrition Plans
                 </h3>
-                <h4 className="text-xl leading-18 md:text-[20px] md:leading-20 font-medium mt-8 text-white sm-max:text-[17px] sm-max:leading-5 sm-max:font-normal xs-max:text-[14px]">
+                <h4 className="text-xl leading-18 md:text-[20px] md:leading-20 font-medium mt-8 text-white sm-max:text-[20px] sm-max:leading-6 sm-max:font-normal">
                 Nutrition plans tailored to meet your specific health demands.
                 </h4>
               </div>
@@ -82,8 +82,8 @@ const MoreCards = () => {
                 <h3 className="text-4xl leading-32 md:text-40 md:leading-40 font-bold text-black xsm-max:text-xl sm-max:text-[26px] sm-max:leading-6 md:text-3xl">
                 Tailored Fitness Plans
                 </h3>
-                <h4 className="text-2xl mt-2 leading-18 md:text-20 md:leading-20 font-medium text-black sm-max:font-normal">
-                Personalized fitness plans to <br /> match your specific needs and goals.
+                <h4 className="text-2xl mt-2 leading-18 md:text-20 md:leading-20 font-medium text-black sm-max:font-normal sm-max:text-[20px]">
+                Personalized fitness plans to match your specific needs and goals.
                 </h4>
               </div>
             </div>
@@ -95,7 +95,7 @@ const MoreCards = () => {
                 <h3 className="text-4xl leading-32 md:text-40 md:leading-40 font-bold text-black xsm-max:text-xl sm-max:text-[26px] sm-max:leading-6 md:text-3xl">
                   AI Symptom Checker
                 </h3>
-                <h4 className="text-2xl leading-18 md:text-20 md:leading-20 font-medium mt-4 text-black sm-max:font-normal">
+                <h4 className="text-2xl leading-18 md:text-20 md:leading-20 font-medium mt-4 text-black sm-max:font-normal sm-max:text-[20px]">
                   Chat with our AI to understand your symptoms and get
                   personalized advice.
                 </h4>
@@ -118,7 +118,7 @@ const MoreCards = () => {
                 <h3 className="text-4xl leading-32 md:text-40 md:leading-40 font-bold text-white xsm-max:text-xl sm-max:text-[26px] sm-max:leading-6 md:text-3xl">
                   Health Insights
                 </h3>
-                <h4 className="text-2xl leading-18 md:text-20 md:leading-20 font-medium mt-4 text-white sm-max:font-normal">
+                <h4 className="text-2xl leading-18 md:text-20 md:leading-20 font-medium mt-4 text-white sm-max:font-normal sm-max:text-[20px]">
                   Gain valuable insights into health trends and understand your
                   symptoms better.
                 </h4>
@@ -152,7 +152,7 @@ const MoreCards = () => {
                 <h3 className="text-4xl leading-32 md:text-40 md:leading-40 font-bold text-white xsm-max:text-xl sm-max:text-[26px] sm-max:leading-6 md:text-3xl">
                 Mental Wellness Plans
                 </h3>
-                <h4 className="text-[22px] leading-18 md:text-20 md:leading-20 font-medium mt-4 text-white sm-max:font-normal">
+                <h4 className="text-[22px] leading-18 md:text-20 md:leading-20 font-medium mt-4 text-white sm-max:font-normal sm-max:text-[20px]">
                 Mental wellness plans to support your emotional well-being
                 </h4>
               </div>
