@@ -42,7 +42,7 @@
 
 @media (min-width: 320px) and (max-width: 380px){
   .more-cards, .more-cards-high, .more-cards-first, .more-cards-second, .more-cards-third, .plans-green {
-    width: 318px;
+    width: 310px;
   }
   .more-cards-high, .more-cards-first, .more-cards-second, .more-cards-third{
     height: 500px;
@@ -61,7 +61,7 @@
 }
 @media (min-width: 320px) and (max-width: 380px){
   .card{
-    width: 315px;
+    width: 310px;
   
   }
 }
@@ -103,7 +103,7 @@
 }
 @media (min-width: 320px) and (max-width: 380px){
   .extra-card{
-    width: 318px;
+    width: 310px;
   
   }
 }
@@ -134,7 +134,7 @@
 }
 @media (min-width: 320px) and (max-width: 380px){
   .last-card{
-    width: 3180px;
+    width: 310px;
   
   }
 }
