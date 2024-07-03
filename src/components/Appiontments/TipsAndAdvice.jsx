@@ -4,7 +4,7 @@ export const Tips = () => {
   return (
     <div className="pt-5 md:pt-20 w-full flex flex-col items-center lg:gap-16 gap-4 px-0 p-3 md:p-6 bg-white">
       <div className="flex flex-col md:gap-8 items-center">
-        <h1 className="text-[34px] leading-48 md:text-[54px] text-black md:leading-70 text-center font-semibold  max-w-2xl">
+        <h1 className="text-8xl leading-48 text-black md:leading-70 text-center font-bold pb-4 lg:max-w-3xl md-max:w-full md-max:text-5xl">
           Tips and Advices
         </h1>
         <h1 className="text-[24px] leading-48 md:text-70 text-black md:leading-70 text-center font-semibold  max-w-2xl">

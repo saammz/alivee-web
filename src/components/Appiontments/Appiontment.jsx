@@ -12,10 +12,10 @@ export const Appointment = () => {
   };
   
   return (
-    <div className="pt-15 md:pt-28 flex flex-col w-full items-center lg:gap-16 px-0 p-3 md:p-6 bg-white">
-      <div className="flex flex-col g items-center">
-        <h1 className="text-[34px] leading-48 md:text-[54px] text-black md:leading-70 text-center font-semibold pb-4 max-w-[250px] lg:max-w-2xl md:max-w-full">
-          Meet Our Medical Consultants
+    <div className="md:pt-20 sm-max:pt-10 flex flex-col w-full items-center lg:gap-16 px-0 p-3 md:p-6 bg-white">
+      <div className="flex flex-col items-center">
+        <h1 className="text-8xl leading-48 text-black md:leading-70 text-center font-bold pb-4 lg:max-w-3xl md-max:w-full md-max:text-5xl">
+        Meet Our Team of Experts
         </h1>
       </div>
       <div className=" carousel carousel-center w-full  p-4 space-x-4 rounded-box">
@@ -31,6 +31,7 @@ export const Appointment = () => {
             <div className="card-body absolute bottom-0 items-center">
               <h2 className="md:text-[24px] text-[20px] font-bold text-center text-white">{card.userName}</h2>
               <div className="bg-white p-4 py-3 text-[14px] md:text-[18px] font-semibold rounded-md ">{card.area}</div>
+              <small className="font-bold text-white text-[18px]">{card.country}</small>
             </div>
           </div>
         ))}

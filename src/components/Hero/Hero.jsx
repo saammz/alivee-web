@@ -20,14 +20,14 @@ const Hero = () => {
           alt="Hero Background"
         />
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white">
-        <h2 className="text-4xl leading-4xl md:text-7xl md:leading-7xl font-semibold sm-max:mt-16">
-          <span className="flex max-w-3xl mx-auto text-white md:mt-24 sm-max:text-2xl sm-max:px-4">
-          Best AI management app for non-communicable conditions
+        <div className="absolute w-full inset-0 flex flex-col justify-center items-center text-center text-white">
+        <h2 className="text-4xl md:text-7xl md:leading-7xl font-bold sm-max:mt-16">
+          <span className="flex max-w-4xl mx-auto text-white md:mt-24 sm-max:text-2xl sm-max:px-4">
+          Empowering You to Take Control of Your Health
           </span>
         </h2>
           <p className="text-2xl font-semibold max-w-md mx-auto mt-2 mb-16 sm-max:text-[16px]">
-            Stay healthy with Alivee
+           Alivee is your All-in-One health app.
           </p>
           <div className="md:flex md:items-center md:space-x-4">
 

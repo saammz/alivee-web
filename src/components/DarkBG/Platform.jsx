@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import device from "../../resources/available-device.webp";
+import appstore from "../../resources/appstore.png";
 import andriod from "../../resources/andriod.png";
 import apple from "../../resources/apple.png";
 
@@ -8,12 +8,12 @@ const Platform = () => {
     <div className="flex items-center justify-center sm-max:flex sm-max:flex-col sm-max:px-20 xsm-max:px-10">
       <div className="">
         <img
-          alt="available on device"
+          alt="available on appstore"
           loading="lazy"
           width="580"
           height="806"
           decoding="async"
-          src={device}
+          src={appstore}
         />
       </div>
       <div className="text-white">
