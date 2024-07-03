@@ -14,11 +14,7 @@ export const Footer = () => {
         <div className="flex gap-11 flex-col md:flex-row xl:flex xl:justify-between">
           <div className="md:border-r-[2px] md:pr-[80px] border-[#808080]">
             <p className="text-[#808080] max-w-[500px] leading-7 h-full">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-              voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-              fugiat iusto fuga praesentium optio, eaque rerum! Provident
-              similique accusantium nemo autem
+            Alivee is an AI-powered health management platform for chronic conditions, especially diabetes. It offers tools and resources for personalized insights, tailored recommendations, comprehensive tracking, and customizable fitness plans, empowering users to optimize their health and achieve their fitness goals.
             </p>
           </div>
           <div className="h-full text-white flex gap-6 xsm-max:gap-3">
