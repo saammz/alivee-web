@@ -1,6 +1,6 @@
-import fitness from '../../resources/fitness.jpg';
-import nutrition from '../../resources/nutrition.jpg';
-import mentalBalance from '../../resources/mentalBalance.jpg';
+import fitness from '../../resources/fitness.webp';
+import nutrition from '../../resources/nutrition.webp';
+import mental_balance from '../../resources/mental_balance.jpg';
 import img1 from '../../resources/img1.jpg';
 import img2 from '../../resources/img2.jpg';
 import img3 from '../../resources/img3.jpg';
@@ -13,29 +13,29 @@ import img9 from '../../resources/img9.jpg';
 export const cardsDetails = [
   {
     id: 1,
-    title1: 'Be consistent..',
-    title2: 'Be authentic.',
-    title3: 'Be active.',
+    title1: 'Be strong.',
+    title2: 'Be determined.',
+    title3: 'Be unstoppable.',
     category: 'Fitness',
     img: fitness,
   },
   {
     id: 2,
-    title1: 'Connected',
-    title2: ' by Purpose,',
-    title3: 'Driven by',
-    title4: 'Motivation.',
-    category: 'Mental balance',
-    img: mentalBalance,
-  },
-  {
-    id: 3,
-    title1: 'Be stronger.',
-    title2: 'Be healthier.',
-    title3: 'Be happier.',
+    title1: 'Be nourished.',
+    title2: 'Be mindful.',
+    title3: 'Be vibrant.',
     category: 'Nutrition',
     img: nutrition,
   },
+  {
+    id: 3,
+    title1: 'Cultivate calm',
+    title2: ' Nurture resilence,',
+    title3: 'Achieve balance',
+    category: 'Mental balance',
+    img: mental_balance,
+  },
+  
 ]
 
 export const aliveeData=[
