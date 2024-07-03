@@ -4,6 +4,10 @@ import third from '../resources/third.jpg';
 import fourth from '../resources/fourth.jpg';
 import fifth from '../resources/fifth.jpg';
 import sixth from '../resources/sixth.jpg';
+import diabetes1 from '../resources/diabetes1.jpg';
+import diabetes3 from '../resources/diabetes3.jpg';
+import diabetes2 from '../resources/diabetes2.webp';
+import diabetes4 from '../resources/diabetes4.webp';
 import nutrition from '../resources/nutrition.png';
 import sofia from '../resources/sofia-baptista.png';
 import tiago from '../resources/tiago-pinto.png';
@@ -60,36 +64,32 @@ export const experts = [
 export const fitnessTips = [
     {
         id: 1,
-        img: first,
+        img: diabetes1,
         display: nutrition,
         userName: "Maria Benedito",
-        area: "Fitness",
-        topic: "5 Tips to Prevent Back Pain"
+        topic: "Diabetes Mellitus and Pregnancy"
     },
     {
         id: 2,
-        img: second,
-        display: nutrition,
+        img: diabetes2,
+        display: sofia,
         userName: "Sofia Alcada",
-        area: "Fitness",
-        topic: "Are you an anxious person? Find out how exercise can help"
+        topic: "⁠Food an Effective Medicine in Diabetes?"
     },
     {
         id: 3,
-        img: third,
-        display: nutrition,
+        img: diabetes3,
+        display: tiago,
         userName: "Tiago Pinto",
-        area: "Fitness",
-        topic: "Men vs. women: what's the difference when it comes to strength training?"
+        topic: "Common Diabetes Pills Also Protect Kidneys"
 
     },
     {
         id: 4,
-        img: fourth,
+        img: diabetes4,
         display: nutrition,
         userName: "Anderia Rosa",
-        area: "Fitness",
-        topic: "4 benefits of exercise to improve your sleep"
+        topic: " Are Immune Therapies for Type 1 Diabetes Worthwhile?"
 
     },
     {
@@ -97,8 +97,7 @@ export const fitnessTips = [
         img:fifth,
         display: nutrition,
         userName: "Maria Benedito",
-        area: "Fitness",
-        topic: "Are you an anxious person? Find out how exercise can help"
+        topic: "Can Tirzepatide Put Type 2 Diabetes Into Remission?"
 
     },
     {
@@ -106,16 +105,7 @@ export const fitnessTips = [
         img: sixth,
         display: nutrition,
         userName: "Ana Andrade",
-        area: "Fitness",
-        topic: "Are you an anxious person? Find out how exercise can help"
-    },
-    {
-        id: 7,
-        img: sixth,
-        display: nutrition,
-        userName: "Maria Benedito",
-        area: "Fitness",
-        topic: "Are you an anxious person? Find out how exercise can help"
+        topic: "⁠How Can Patients With Diabetes and Obesity Lose Weight?"
     },
 ]
 
@@ -126,7 +116,7 @@ export const nutritionTips = [
         display: nutrition,
         userName: "Maria Benedito",
         area: "Nutritions",
-        topic: "5 Tips to Prevent Back Pain"
+        topic: "Rethinking Approach to Manage Fever in ED for Children With Sickle Cell Disease"
     },
     {
         id: 2,
@@ -134,7 +124,7 @@ export const nutritionTips = [
         display: nutrition,
         userName: "Sofia Alcada",
         area: "Nutritions",
-        topic: "Are you an anxious person? Find out how exercise can help"
+        topic: "Sickle Cell Anemia Skeletal Imaging"
     },
     {
         id: 3,
@@ -142,7 +132,7 @@ export const nutritionTips = [
         display: nutrition,
         userName: "Tiago Pinto",
         area: "Nutritions",
-        topic: "Men vs. women: what's the difference when it comes to strength training?"
+        topic: "Children With Sickle Cell Disease at Risk for Vision Loss"
 
     },
     {
@@ -151,7 +141,7 @@ export const nutritionTips = [
         display: nutrition,
         userName: "Anderia Rosa",
         area: "Nutritions",
-        topic: "4 benefits of exercise to improve your sleep"
+        topic: "Is $3.5 Million a Fair Price for a Lifesaving Gene Therapy?"
 
     },
     {
@@ -160,7 +150,7 @@ export const nutritionTips = [
         display: nutrition,
         userName: "Maria Benedito",
         area: "Nutritions",
-        topic: "Are you an anxious person? Find out how exercise can help"
+        topic: "High Price for Gene Therapy ― But Cost-Effective in Sickle Cell"
 
     },
     {
@@ -169,31 +159,7 @@ export const nutritionTips = [
         display: nutrition,
         userName: "Ana Andrade",
         area: "Nutritions",
-        topic: "Are you an anxious person? Find out how exercise can help"
-    },
-    {
-        id: 7,
-        img: nutrition,
-        display: nutrition,
-        userName: "Maria Benedito",
-        area: "Nutritions",
-        topic: "Are you an anxious person? Find out how exercise can help"
-    },
-    {
-        id: 8,
-        img: nutrition,
-        display: nutrition,
-        userName: "Maria Benedito",
-        area: "Nutritions",
-        topic: "Are you an anxious person? Find out how exercise can help"
-    },
-    {
-        id: 9,
-        img: nutrition,
-        display: nutrition,
-        userName: "Maria Benedito",
-        area: "Nutritions",
-        topic: "Are you an anxious person? Find out how exercise can help"
+        topic: "⁠Sickle Cell: Good Outcomes for Haploidentical Transplants"
     },
 ]
 export const wellbeingTips = [
@@ -203,7 +169,7 @@ export const wellbeingTips = [
         display: nutrition,
         userName: "Maria Benedito",
         area: "Wellbeing",
-        topic: "5 Tips to Prevent Back Pain"
+        topic: "Reduce Sitting Time to Lower Blood Pressure"
     },
     {
         id: 2,
@@ -211,7 +177,7 @@ export const wellbeingTips = [
         display: nutrition,
         userName: "Sofia Alcada",
         area: "Wellbeing",
-        topic: "Are you an anxious person? Find out how exercise can help"
+        topic: "⁠Blood Pressure Falls With Self-Managed Sodium Reductions"
     },
     {
         id: 3,
@@ -219,7 +185,7 @@ export const wellbeingTips = [
         display: nutrition,
         userName: "Tiago Pinto",
         area: "Wellbeing",
-        topic: "Men vs. women: what's the difference when it comes to strength training?"
+        topic: "⁠Chronic Conditions Among Adults Aged 18–34 Years"
 
     },
     {
@@ -228,7 +194,7 @@ export const wellbeingTips = [
         display: nutrition,
         userName: "Anderia Rosa",
         area: "Wellbeing",
-        topic: "4 benefits of exercise to improve your sleep"
+        topic: "⁠COVID May Increase Risk of High Blood Pressure"
 
     },
     {
@@ -237,7 +203,7 @@ export const wellbeingTips = [
         display: nutrition,
         userName: "Maria Benedito",
         area: "Wellbeing",
-        topic: "Are you an anxious person? Find out how exercise can help"
+        topic: "Hypertension and Pregnancy"
 
     },
     {
@@ -246,30 +212,7 @@ export const wellbeingTips = [
         display: nutrition,
         userName: "Ana Andrade",
         area: "Wellbeing",
-        topic: "Are you an anxious person? Find out how exercise can help"
+        topic: "Spirituality Intervention Tied to Lower Blood Pressure"
     },
-    {
-        id: 7,
-        img: nutrition,
-        display: nutrition,
-        userName: "Maria Benedito",
-        area: "Wellbeing",
-        topic: "Are you an anxious person? Find out how exercise can help"
-    },
-    {
-        id: 8,
-        img: nutrition,
-        display: nutrition,
-        userName: "Maria Benedito",
-        area: "Wellbeing",
-        topic: "Are you an anxious person? Find out how exercise can help"
-    },
-    {
-        id: 8,
-        img: nutrition,
-        display: nutrition,
-        userName: "Maria Benedito",
-        area: "Wellbeing",
-        topic: "Are you an anxious person? Find out how exercise can help"
-    },
+
 ]
