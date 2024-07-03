@@ -1,8 +1,9 @@
-import fit1 from '../resources/fit1.png';
-import fit2 from '../resources/fit2.png';
-import fit3 from '../resources/fit3.png';
-import fit4 from '../resources/fit4.png';
-import fit5 from '../resources/fit5.png';
+import first from '../resources/first.jpg';
+import second from '../resources/second.jpg';
+import third from '../resources/third.jpg';
+import fourth from '../resources/fourth.jpg';
+import fifth from '../resources/fifth.jpg';
+import sixth from '../resources/sixth.jpg';
 import nutrition from '../resources/nutrition.png';
 import sofia from '../resources/sofia-baptista.png';
 import tiago from '../resources/tiago-pinto.png';
@@ -14,64 +15,52 @@ import andria from '../resources/andreia-rosa.png';
 export const experts = [
     {
         id: 1,
-        img: nutrition,
-        userName: "Maria Benedito",
-        area: "Nutrition"
+        img: first,
+        userName: "Arinze Ugochukwu",
+        area: "General Physician",
+        country:"Saudi Arabia",
     },
     {
         id: 2,
-        img: sofia,
-        userName: "Sofia Alcada",
-        area: "Mental Balance"
+        img: second,
+        userName: "Richard Nya",
+        area: "Public Health Expert",
+        country:"London",
     },
     {
         id: 3,
-        img: tiago,
-        userName: "Tiago Pinto",
-        area: "Fitness"
+        img: third,
+        userName: "Kenneth Nwambam",
+        area: "Internal Medicine",
+        country:"London",
     },
     {
         id: 4,
-        img: andria,
-        userName: "Anderia Rosa",
-        area: "Fitness"
+        img: fourth,
+        userName: "Chike Bosah",
+        area: "Internal Medicine",
+        country:"London",
     },
     {
         id: 5,
-        img: nutrition,
-        userName: "Maria Benedito",
-        area: "Nutrition"
+        img: fifth,
+        userName: "Hilda Udoh",
+        area: "General Physician",
+        country:"Nigeria",
     },
     {
         id: 6,
-        img: ana,
-        userName: "Ana Andrade",
-        area: "Fitness"
-    },
-    {
-        id: 7,
-        img: nutrition,
-        userName: "Maria Benedito",
-        area: "Nutrition"
-    },
-    {
-        id: 6,
-        img: ana,
-        userName: "Ana Andrade",
-        area: "Fitness"
-    },
-    {
-        id: 7,
-        img: nutrition,
-        userName: "Maria Benedito",
-        area: "Nutrition"
+        img: sixth,
+        userName: "Samuel Adeyi",
+        area: "General Physician",
+        country:"USA",
     },
 ]
 
 export const fitnessTips = [
     {
         id: 1,
-        img: fit1,
+        img: first,
         display: nutrition,
         userName: "Maria Benedito",
         area: "Fitness",
@@ -79,7 +68,7 @@ export const fitnessTips = [
     },
     {
         id: 2,
-        img: fit2,
+        img: second,
         display: nutrition,
         userName: "Sofia Alcada",
         area: "Fitness",
@@ -87,7 +76,7 @@ export const fitnessTips = [
     },
     {
         id: 3,
-        img: fit3,
+        img: third,
         display: nutrition,
         userName: "Tiago Pinto",
         area: "Fitness",
@@ -96,7 +85,7 @@ export const fitnessTips = [
     },
     {
         id: 4,
-        img: fit4,
+        img: fourth,
         display: nutrition,
         userName: "Anderia Rosa",
         area: "Fitness",
@@ -105,7 +94,7 @@ export const fitnessTips = [
     },
     {
         id: 5,
-        img:fit5,
+        img:fifth,
         display: nutrition,
         userName: "Maria Benedito",
         area: "Fitness",
@@ -114,7 +103,7 @@ export const fitnessTips = [
     },
     {
         id: 6,
-        img: fit1,
+        img: sixth,
         display: nutrition,
         userName: "Ana Andrade",
         area: "Fitness",
@@ -122,34 +111,18 @@ export const fitnessTips = [
     },
     {
         id: 7,
-        img: nutrition,
+        img: sixth,
         display: nutrition,
         userName: "Maria Benedito",
         area: "Fitness",
         topic: "Are you an anxious person? Find out how exercise can help"
     },
-    {
-        id: 6,
-        img: fit1,
-        display: nutrition,
-        userName: "Ana Andrade",
-        area: "Fitness",
-        topic: "Are you an anxious person? Find out how exercise can help"
-    },
-    {
-        id: 7,
-        img: nutrition,
-        display: nutrition,
-        userName: "Maria Benedito",
-        area: "Fitness",
-        topic: "Are you an anxious person? Find out how exercise can help"
-    }
 ]
 
 export const nutritionTips = [
     {
         id: 1,
-        img: fit1,
+        img: first,
         display: nutrition,
         userName: "Maria Benedito",
         area: "Nutritions",
@@ -157,7 +130,7 @@ export const nutritionTips = [
     },
     {
         id: 2,
-        img: fit2,
+        img: second,
         display: nutrition,
         userName: "Sofia Alcada",
         area: "Nutritions",
@@ -165,7 +138,7 @@ export const nutritionTips = [
     },
     {
         id: 3,
-        img: fit3,
+        img: third,
         display: nutrition,
         userName: "Tiago Pinto",
         area: "Nutritions",
@@ -174,7 +147,7 @@ export const nutritionTips = [
     },
     {
         id: 4,
-        img: fit4,
+        img: fourth,
         display: nutrition,
         userName: "Anderia Rosa",
         area: "Nutritions",
@@ -183,7 +156,7 @@ export const nutritionTips = [
     },
     {
         id: 5,
-        img: fit5,
+        img: fifth,
         display: nutrition,
         userName: "Maria Benedito",
         area: "Nutritions",
@@ -192,7 +165,7 @@ export const nutritionTips = [
     },
     {
         id: 6,
-        img: fit1,
+        img: sixth,
         display: nutrition,
         userName: "Ana Andrade",
         area: "Nutritions",
@@ -226,7 +199,7 @@ export const nutritionTips = [
 export const wellbeingTips = [
     {
         id: 1,
-        img: fit1,
+        img: first,
         display: nutrition,
         userName: "Maria Benedito",
         area: "Wellbeing",
@@ -234,7 +207,7 @@ export const wellbeingTips = [
     },
     {
         id: 2,
-        img: fit2,
+        img: second,
         display: nutrition,
         userName: "Sofia Alcada",
         area: "Wellbeing",
@@ -242,7 +215,7 @@ export const wellbeingTips = [
     },
     {
         id: 3,
-        img: fit3,
+        img: third,
         display: nutrition,
         userName: "Tiago Pinto",
         area: "Wellbeing",
@@ -251,7 +224,7 @@ export const wellbeingTips = [
     },
     {
         id: 4,
-        img: fit4,
+        img: fourth,
         display: nutrition,
         userName: "Anderia Rosa",
         area: "Wellbeing",
@@ -260,7 +233,7 @@ export const wellbeingTips = [
     },
     {
         id: 5,
-        img: fit5,
+        img: fifth,
         display: nutrition,
         userName: "Maria Benedito",
         area: "Wellbeing",
@@ -269,7 +242,7 @@ export const wellbeingTips = [
     },
     {
         id: 6,
-        img: fit1,
+        img: sixth,
         display: nutrition,
         userName: "Ana Andrade",
         area: "Wellbeing",

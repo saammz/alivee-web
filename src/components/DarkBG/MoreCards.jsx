@@ -1,9 +1,9 @@
-import phone from "../../resources/phone.webp";
+import vitals from "../../resources/vitals.png";
 import remote from "../../resources/remote_phone.png";
 import Nutrition_plan from "../../resources/Nutrition_plan.png";
 import Symptom from "../../resources/Symptom-checker.jpg";
 import tailored_fitness from "../../resources/tailored_fitness.jpg";
-import exercise from "../../resources/exercise.webp";
+import health from "../../resources/phone.png";
 import Mental_wellness from "../../resources/Mental_wellness.webp";
 import ExtraCard from "./ExtraCard";
 import LastCard from "./LastCard";
@@ -15,10 +15,10 @@ const MoreCards = () => {
       <div className="flex flex-col items-center">
         <div className="flex flex-col gap-8 mb-1 md:mb-20 text-center sm-max:gap-2">
           <h3 className="text-7xl sm-max:text-2xl leading-18 md:text-20 md:leading-20 font-medium leading-[5rem] text-white">
-            What Alivee Offers
+            What do you get with Alivee?
           </h3>
           <h3 className="text-3xl sm-max:text-xl leading-18 md:text-20 md:leading-20 font-medium text-gray-400">
-            Your goals. Your pace. Your terms.
+          Your complete solution for holistic health management.
           </h3>
         </div>
         <div className="flex items-center justify-center gap-8 sm-max:flex sm-max:flex-col mt-12">
@@ -34,8 +34,8 @@ const MoreCards = () => {
               </div>
               <div className="w-1/2">
                 <img
-                  src={phone}
-                  alt="phone"
+                  src={vitals}
+                  alt="vitals"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -132,7 +132,7 @@ const MoreCards = () => {
                 data-nimg="1"
                 className="mx-auto md:mx-0"
                 style={{ color: "transparent" }}
-                src={exercise}
+                src={health}
               />
             </div>
 
