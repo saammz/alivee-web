@@ -8,6 +8,20 @@ import diabetes1 from '../resources/diabetes1.jpg';
 import diabetes3 from '../resources/diabetes3.jpg';
 import diabetes2 from '../resources/diabetes2.webp';
 import diabetes4 from '../resources/diabetes4.webp';
+import diabetes5 from '../resources/diabetes5.jpg';
+import diabetes6 from '../resources/diabetes6.jpg';
+import sicklecell1 from '../resources/sicklecell1.jpg';
+import sicklecell3 from '../resources/sicklecell3.webp';
+import sicklecell4 from '../resources/sicklecell4.jpg';
+import sicklecell5 from '../resources/sicklecell5.jpg';
+import sicklecell6 from '../resources/sicklecell6.jpg';
+import sicklecell2 from '../resources/sicklecell2.webp';
+import hbp1 from '../resources/hbp1.jpg';
+import hbp3 from '../resources/hbp3.jpg';
+import hbp4 from '../resources/hbp4.jpg';
+import hbp5 from '../resources/hbp5.jpg';
+import hbp6 from '../resources/hbp6.jpg';
+import hbp2 from '../resources/hbp2.webp';
 import nutrition from '../resources/nutrition.png';
 import sofia from '../resources/sofia-baptista.png';
 import tiago from '../resources/tiago-pinto.png';
@@ -94,7 +108,7 @@ export const fitnessTips = [
     },
     {
         id: 5,
-        img:fifth,
+        img:diabetes5,
         display: nutrition,
         userName: "Maria Benedito",
         topic: "Can Tirzepatide Put Type 2 Diabetes Into Remission?"
@@ -102,7 +116,7 @@ export const fitnessTips = [
     },
     {
         id: 6,
-        img: sixth,
+        img: diabetes6,
         display: nutrition,
         userName: "Ana Andrade",
         topic: "⁠How Can Patients With Diabetes and Obesity Lose Weight?"
@@ -112,7 +126,7 @@ export const fitnessTips = [
 export const nutritionTips = [
     {
         id: 1,
-        img: first,
+        img: sicklecell1,
         display: nutrition,
         userName: "Maria Benedito",
         area: "Nutritions",
@@ -120,7 +134,7 @@ export const nutritionTips = [
     },
     {
         id: 2,
-        img: second,
+        img: sicklecell2,
         display: nutrition,
         userName: "Sofia Alcada",
         area: "Nutritions",
@@ -128,7 +142,7 @@ export const nutritionTips = [
     },
     {
         id: 3,
-        img: third,
+        img: sicklecell3,
         display: nutrition,
         userName: "Tiago Pinto",
         area: "Nutritions",
@@ -137,7 +151,7 @@ export const nutritionTips = [
     },
     {
         id: 4,
-        img: fourth,
+        img: sicklecell4,
         display: nutrition,
         userName: "Anderia Rosa",
         area: "Nutritions",
@@ -146,7 +160,7 @@ export const nutritionTips = [
     },
     {
         id: 5,
-        img: fifth,
+        img: sicklecell5,
         display: nutrition,
         userName: "Maria Benedito",
         area: "Nutritions",
@@ -155,7 +169,7 @@ export const nutritionTips = [
     },
     {
         id: 6,
-        img: sixth,
+        img: sicklecell6,
         display: nutrition,
         userName: "Ana Andrade",
         area: "Nutritions",
@@ -165,7 +179,7 @@ export const nutritionTips = [
 export const wellbeingTips = [
     {
         id: 1,
-        img: first,
+        img: hbp1,
         display: nutrition,
         userName: "Maria Benedito",
         area: "Wellbeing",
@@ -173,7 +187,7 @@ export const wellbeingTips = [
     },
     {
         id: 2,
-        img: second,
+        img: hbp2,
         display: nutrition,
         userName: "Sofia Alcada",
         area: "Wellbeing",
@@ -181,7 +195,7 @@ export const wellbeingTips = [
     },
     {
         id: 3,
-        img: third,
+        img: hbp3,
         display: nutrition,
         userName: "Tiago Pinto",
         area: "Wellbeing",
@@ -190,7 +204,7 @@ export const wellbeingTips = [
     },
     {
         id: 4,
-        img: fourth,
+        img: hbp4,
         display: nutrition,
         userName: "Anderia Rosa",
         area: "Wellbeing",
@@ -199,7 +213,7 @@ export const wellbeingTips = [
     },
     {
         id: 5,
-        img: fifth,
+        img: hbp5,
         display: nutrition,
         userName: "Maria Benedito",
         area: "Wellbeing",
@@ -208,7 +222,7 @@ export const wellbeingTips = [
     },
     {
         id: 6,
-        img: sixth,
+        img: hbp6,
         display: nutrition,
         userName: "Ana Andrade",
         area: "Wellbeing",
