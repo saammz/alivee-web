@@ -14,13 +14,13 @@ export const Appointment = () => {
   return (
     <div className="md:pt-20 sm-max:pt-10 flex flex-col w-full items-center lg:gap-16 px-0 p-3 md:p-6 bg-white">
       <div className="flex flex-col items-center">
-        <h1 className="text-8xl leading-48 text-black md:leading-70 text-center font-bold pb-4 lg:max-w-3xl md-max:w-full md-max:text-5xl">
+        <h1 className="leading-48 text-black md:leading-70 text-center font-bold pb-4 lg:max-w-3xl md-max:w-full sm-max:text-3xl md:text-6xl lg:text-8xl">
         Meet Our Team of Experts
         </h1>
       </div>
-      <div className=" carousel carousel-center w-full  p-4 space-x-4 rounded-box">
+      <div className=" carousel carousel-center w-full p-4 space-x-4 rounded-box">
         {experts.map((card, id) => (
-          <div key={id} className="carousel-item h-[450px] w-[300px] relative flex items-center justify-center">
+          <div key={id} className="carousel-item h-[450px] w-[300px] sm-max:max-w-[250px] relative flex items-center justify-center">
             <div className="h-full w-full">
               <img
                 src={card.img}
