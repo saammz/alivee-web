@@ -13,9 +13,9 @@ const Hero = () => {
 
   return (
     <div className="w-full z-10">
-      <div className="relative max-h-[48rem] sm-max:h-[25rem] overflow-hidden">
+      <div className="relative max-h-[48rem] sm-max:h-[35rem] overflow-hidden">
         <img
-          className="object-cover w-full h-full"
+          className="object-cover w-full h-full sm-max:mt-[7rem] sm-max:scale-150"
           src={HeroSection}
           alt="Hero Background"
         />
