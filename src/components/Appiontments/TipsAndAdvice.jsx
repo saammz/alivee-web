@@ -4,7 +4,7 @@ export const Tips = () => {
   return (
     <div className="pt-5 md:pt-20 w-full flex flex-col items-center lg:gap-16 gap-4 px-0 p-3 md:p-6 bg-white">
       <div className="flex flex-col md:gap-8 items-center">
-        <h1 className="text-8xl leading-48 text-black md:leading-70 text-center font-bold pb-4 lg:max-w-3xl md-max:w-full md-max:text-5xl">
+        <h1 className="leading-48 text-black md:leading-70 text-center font-bold pb-4 lg:max-w-3xl md-max:w-full sm-max:text-3xl md:text-6xl lg:text-8xl">
           Tips and Advices
         </h1>
         <h1 className="text-[24px] leading-48 md:text-70 text-black md:leading-70 text-center font-semibold  max-w-2xl">
@@ -15,7 +15,7 @@ export const Tips = () => {
         {fitnessTips.map((card, id) => (
           <div
             key={id}
-            className="carousel-item h-[450px] border-[2px] rounded-box p-3 w-[300px]  flex  flex-col gap-2 "
+            className="carousel-item h-[450px] border-[2px] rounded-box p-3 w-[300px] sm-max:max-w-[250px] flex  flex-col gap-2 "
           >
             <div className="h-[70%] w-full relative  justify-center flex">
               <img
