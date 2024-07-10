@@ -8,7 +8,7 @@ export const Tips = () => {
           Tips and Advices
         </h1>
         <h1 className="text-[26px] leading-48 md:text-70 text-black md:leading-70 text-center font-semibold  max-w-2xl">
-        Checkout Insights on Diabetes: Learn More to Do More
+          Checkout Insights on Diabetes: Learn More to Do More
         </h1>
       </div>
       <div className="carousel carousel-center w-full p-4 space-x-4 rounded-box">
@@ -23,7 +23,6 @@ export const Tips = () => {
                 className="rounded-box object-cover size-full "
                 style={{ height: "300px" }}
               />
-              
             </div>
             <div className="w-full flex flex-col gap-2">
               <div className="flex items-center gap-3">

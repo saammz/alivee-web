@@ -3,18 +3,17 @@ import { nutritionTips } from "../../resources/Constant";
 
 export const Nutrition = () => {
   const planRef = useRef(null);
-  const scrollToPlan = () =>{
-    if(planRef.current){
-      planRef.current.scrollIntoView({behavior: "smooth", block: "start"});
+  const scrollToPlan = () => {
+    if (planRef.current) {
+      planRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
     }
-  }
-
+  };
 
   return (
     <div className="pt-10 md:pt-20 w-full flex flex-col items-center lg:gap-10 gap-4 px-0  p-3 md:p-6 bg-white">
       <div className="flex flex-col gap-8 items-center">
         <h1 className="sm-max:text-3xl md:text-6xl lg:text-4xl leading-48 text-black md:leading-70 text-center font-semibold">
-        Explore Insights on Sickle Cell Management
+          Explore Insights on Sickle Cell Management
         </h1>
       </div>
       <div className="carousel carousel-center w-full space-x-4 rounded-box">
@@ -29,7 +28,6 @@ export const Nutrition = () => {
                 className="rounded-box object-cover size-full"
                 style={{ height: "300px" }}
               />
-              
             </div>
             <div className="w-full flex flex-col gap-2">
               <div className="flex items-center gap-3">
@@ -45,7 +43,10 @@ export const Nutrition = () => {
           </div>
         ))}
       </div>
-      <button className="p-3 px-8 md:p-5 md:px-14 text-black border-black border-[2px]  rounded-full font-semibold min-w-[120px]" onClick={scrollToPlan}>
+      <button
+        className="p-3 px-8 md:p-5 md:px-14 text-black border-black border-[2px]  rounded-full font-semibold min-w-[120px]"
+        onClick={scrollToPlan}
+      >
         View all
       </button>
     </div>
