@@ -10,17 +10,20 @@ export const Appointment = () => {
     console.log(formData);
     closeModal();
   };
-  
+
   return (
     <div className="md:pt-20 sm-max:pt-10 flex flex-col w-full items-center lg:gap-16 px-0 p-3 md:p-6 bg-white">
       <div className="flex flex-col items-center">
         <h1 className="leading-10 text-black md:leading-70 text-center font-bold pb-4 lg:max-w-3xl md-max:w-full sm-max:text-[48px] md:text-6xl lg:text-8xl">
-        Meet Our Team of Experts
+          Meet Our Team of Experts
         </h1>
       </div>
       <div className=" carousel carousel-center w-full p-4 space-x-4 rounded-box">
         {experts.map((card, id) => (
-          <div key={id} className="carousel-item h-[450px] w-[300px] sm-max:max-w-[250px] relative flex items-center justify-center">
+          <div
+            key={id}
+            className="carousel-item h-[450px] w-[300px] sm-max:max-w-[250px] relative flex items-center justify-center"
+          >
             <div className="h-full w-full">
               <img
                 src={card.img}
@@ -29,9 +32,15 @@ export const Appointment = () => {
               />
             </div>
             <div className="card-body absolute bottom-0 items-center">
-              <h2 className="md:text-[24px] text-[20px] font-bold text-center text-white">{card.userName}</h2>
-              <div className="bg-white p-4 py-3 text-[14px] md:text-[18px] font-semibold rounded-md ">{card.area}</div>
-              <small className="font-bold text-white text-[18px]">{card.country}</small>
+              <h2 className="md:text-[24px] text-[20px] font-bold text-center text-white">
+                {card.userName}
+              </h2>
+              <div className="bg-white p-4 py-3 text-[14px] md:text-[18px] font-semibold rounded-md ">
+                {card.area}
+              </div>
+              <small className="font-bold text-white text-[18px]">
+                {card.country}
+              </small>
             </div>
           </div>
         ))}
@@ -45,7 +54,11 @@ export const Appointment = () => {
             Exclusive for Alivee Users
           </h2>
         </div>
-        <Button onclick={openModal} text="Join Waitlist" className="sm-max:px-4 sm-max:py-2" />
+        <Button
+          onclick={openModal}
+          text="Join Waitlist"
+          className="sm-max:px-4 sm-max:py-2"
+        />
       </div>
       <Modal isOpen={isOpen} onClose={closeModal} onSubmit={handleSubmitForm} />
     </div>
