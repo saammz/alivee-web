@@ -5,7 +5,6 @@ import Button from "../Shared/Button";
 
 export const Appointment = () => {
   const { isOpen, openModal, closeModal } = useModalHook();
-
   const handleSubmitForm = (formData) => {
     console.log(formData);
     closeModal();
