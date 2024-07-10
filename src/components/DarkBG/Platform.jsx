@@ -18,7 +18,7 @@ const Platform = () => {
       </div>
       <div className="text-white">
         <div className="grid">
-          <h1 className="text-6xl leading-48 md:text-70 md:leading-70 sm-max:text-2xl font-semibold flex lg:max-w-md">
+          <h1 className="lg:text-6xl leading-48 md:text-4xl md:leading-70 sm-max:text-3xl font-semibold flex lg:max-w-md">
            Coming Soon on App Store & Play Store
           </h1>
           <div className="flex flex-col mt-10">

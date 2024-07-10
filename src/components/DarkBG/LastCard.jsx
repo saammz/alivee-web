@@ -11,10 +11,10 @@ const LastCard = () => {
             <div className="absolute top-0 right-0 left-0 bottom-0 bg-black opacity-50 rounded-2xl"></div>
 
             <div className="absolute bottom-[1.4rem] pb-6 px-6">
-            <h3 className="ext-4xl leading-32 md:text-40 md:leading-40 font-bold text-white xsm-max:text-xl sm-max:text-[26px] sm-max:leading-6 md:text-3xl">
+            <h3 className="ext-4xl leading-32 md:text-40 md:leading-40 font-bold text-white xsm-max:text-xl sm-max:text-[33px] sm-max:leading-8 md:text-3xl">
             Medical Consultation
             </h3>
-            <h4 className="text-2xl sm-max:text-md leading-18 md:text-20 md:leading-20 font-medium mt-4 text-white sm-max:font-normal sm-max:text-[18px] sm-max:leading-6">
+            <h4 className="text-2xl sm-max:text-md leading-18 md:text-20 md:leading-20 font-medium mt-4 text-white sm-max:font-normal sm-max:text-[18px] sm-max:leading-8">
             Access professional medical advice and consultations.
             </h4>
             
@@ -26,7 +26,7 @@ const LastCard = () => {
             <img src={bottle} alt="" className="absolute top-0 right-0 left-0 w-full h-full rounded-2xl object-cover" />
 
             <div className="absolute top-[1rem] pb-6 px-6">
-            <h3 className="ext-4xl leading-32 md:text-40 md:leading-40 font-bold text-black xsm-max:text-xl sm-max:text-[26px] sm-max:leading-6 md:text-3xl">
+            <h3 className="ext-4xl leading-32 md:text-40 md:leading-40 font-bold text-black xsm-max:text-xl sm-max:text-[33px] sm-max:leading-8 md:text-3xl">
             Medication and Hydration Tracking
             </h3>
             <h4 className="text-2xl sm-max:text-md leading-18 md:text-20 md:leading-20 font-medium mt-4 text-black sm-max:font-normal sm-max:text-[18px] sm-max:leading-6">
