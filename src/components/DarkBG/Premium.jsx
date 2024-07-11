@@ -42,15 +42,15 @@ const Premium = () => {
             <div className="flex gap-1 items-baseline mt-2">
                 {showYearly ? (
                   <h3 className="text-4xl leading-40 md:text-48 md:leading-48 font-medium sm-max:text-2xl">
-                    ₦100,000 <span className="text-base line-through"> ₦120,000</span>
+                    {/* ₦100,000 <span className="text-base line-through"> ₦120,000</span> */}
                   </h3>
                 ) : (
                   <h3 className="text-4xl leading-40 md:text-48 md:leading-48 font-medium sm-max:text-2xl">
-                    ₦7,500 <span className="text-base line-through"> ₦10,000</span>
+                    {/* ₦7,500 <span className="text-base line-through"> ₦10,000</span> */}
                   </h3>
                 )}
                 <h4 className="text-16 leading-16 md:text-18 md:leading-18 font-medium">
-                  /{showYearly ? "yearly" : "monthly"}
+                  {/* /{showYearly ? "yearly" : "monthly"} */}
                 </h4>
               </div>
             <p className="text-16 leading-16 md:text-18 md:leading-18 font-medium mt-2">
