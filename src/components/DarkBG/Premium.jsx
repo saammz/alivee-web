@@ -53,102 +53,113 @@ const Premium = () => {
                   {/* /{showYearly ? "yearly" : "monthly"} */}
                 </h4>
               </div>
-            <p className="text-16 leading-16 md:text-18 md:leading-18 font-medium mt-2">
+            {/* <p className="text-16 leading-16 md:text-18 md:leading-18 font-medium mt-2">
               Use promo code <span className="text-green-light">EKYEAR50</span>
-            </p>
+            </p> */}
           </div>
           {showYearly ? (
-            <ul className="flex flex-col gap-4">
-              <li className="flex items-center gap-2">
-                 <img alt="dot" width="20" height="20" src={circleDot}/>
-                <p className="text-12 leading-12 font-medium text-white">
-                  Personalized plans
-                </p>
-              </li>
-              <li className="flex items-center gap-2">
-                 <img alt="dot" width="20" height="20" src={circleDot}/>
-                <p className="text-12 leading-12 font-medium text-white">
+              <ul className="flex flex-col gap-4">
+                <li className="flex items-center gap-2">
+                  <img alt="dot" width="20" height="20" src={circleDot} />
+                  <p className="text-12 leading-12 font-medium text-white">
+                  AI symptom checker
+                  </p>
+                </li>
+                <li className="flex items-center gap-2">
+                  <img alt="dot" width="20" height="20" src={circleDot} />
+                  <p className="text-12 leading-12 font-medium text-white">
+                  ⁠Personalized plans
+                  </p>
+                </li>
+                <li className="flex items-center gap-2">
+                  <img alt="dot" width="20" height="20" src={circleDot} />
+                  <p className="text-12 leading-12 font-medium text-white">
                   Activities tracking
-                </p>
-              </li>
-              <li className="flex items-center gap-2">
-                 <img alt="dot" width="20" height="20" src={circleDot}/>
-                <p className="text-12 leading-12 font-medium text-white">
-                  Access to exclusive content
-                </p>
-              </li>
-              <li className="flex items-center gap-2">
-                 <img alt="dot" width="20" height="20" src={circleDot}/>
-                <p className="text-12 leading-12 font-medium text-white">
-                  Access to programs
-                </p>
-              </li>
-              <li className="flex items-center gap-2">
-                 <img alt="dot" width="20" height="20" src={circleDot}/>
-                <p className="text-12 leading-12 font-medium text-white">
-                  Access to challenges
-                </p>
-              </li>
-              <li className="flex items-center gap-2">
-                 <img alt="dot" width="20" height="20" src={circleDot}/>
-                <p className="text-12 leading-12 font-medium text-white">
-                  Sync with your wearable
-                </p>
-              </li>
-              <li className="flex items-center gap-2">
-                 <img alt="dot" width="20" height="20" src={circleDot}/>
-                <p className="text-12 leading-12 font-medium text-white">
-                  Sync with your wearable
-                </p>
-              </li>
-            </ul>
-          ) : (
-            <ul className="flex flex-col gap-4">
-              {/* Default monthly options */}
-              <li className="flex items-center gap-2">
-                 <img alt="dot" width="20" height="20" src={circleDot}/>
-                <p className="text-12 leading-12 font-medium text-white">
-                  Personalized plans
-                </p>
-              </li>
-              <li className="flex items-center gap-2">
-                 <img alt="dot" width="20" height="20" src={circleDot}/>
-                <p className="text-12 leading-12 font-medium text-white">
-                  Actives tracking
-                </p>
-              </li>
-              <li className="flex items-center gap-2">
-                 <img alt="dot" width="20" height="20" src={circleDot}/>
-                <p className="text-12 leading-12 font-medium text-white">
-                  Access to exclusive content
-                </p>
-              </li>
-              <li className="flex items-center gap-2">
-                 <img alt="dot" width="20" height="20" src={circleDot}/>
-                <p className="text-12 leading-12 font-medium text-white">
-                  Access to programs
-                </p>
-              </li>
-              <li className="flex items-center gap-2">
-                 <img alt="dot" width="20" height="20" src={circleDot}/>
-                <p className="text-12 leading-12 font-medium text-white">
-                  Access to challenges
-                </p>
-              </li>
-              <li className="flex items-center gap-2">
-                 <img alt="dot" width="20" height="20" src={circleDot}/>
-                <p className="text-12 leading-12 font-medium text-white">
-                  Sync with your wearable
-                </p>
-              </li>
-              <li className="flex items-center gap-2">
-                 <img alt="dot" width="20" height="20" src={circleDot}/>
-                <p className="text-12 leading-12 font-medium text-gray-500">
-                  Sync with your wearable
-                </p>
-              </li>
-            </ul>
-          )}
+                  </p>
+                </li>
+                <li className="flex items-center gap-2">
+                  <img alt="dot" width="20" height="20" src={circleDot} />
+                  <p className="text-12 leading-12 font-medium text-white">
+                  Access to premium contents
+                  </p>
+                </li>
+                <li className="flex items-center gap-2">
+                  <img alt="dot" width="20" height="20" src={circleDot} />
+                  <p className="text-12 leading-12 font-medium text-white">
+                  Access to communities 
+                  </p>
+                </li>
+                <li className="flex items-center gap-2">
+                  <img alt="dot" width="20" height="20" src={circleDot} />
+                  <p className="text-12 leading-12 font-medium text-white">
+                    Sync with your wearable
+                  </p>
+                </li>
+                <li className="flex items-center gap-2">
+                  <img alt="dot" width="20" height="20" src={circleDot} />
+                  <p className="text-12 leading-12 font-medium text-white">
+                  Remote monitoring 
+                  </p>
+                </li>
+                <li className="flex items-center gap-2">
+                  <img alt="dot" width="20" height="20" src={circleDot} />
+                  <p className="text-12 leading-12 font-medium text-white">
+                  5 free appointments 
+                  </p>
+                </li>
+              </ul>
+            ) : (
+              <ul className="flex flex-col gap-4">
+                <li className="flex items-center gap-2">
+                  <img alt="dot" width="20" height="20" src={circleDot} />
+                  <p className="text-12 leading-12 font-medium text-white">
+                  AI symptom checker
+                  </p>
+                </li>
+                <li className="flex items-center gap-2">
+                  <img alt="dot" width="20" height="20" src={circleDot} />
+                  <p className="text-12 leading-12 font-medium text-white">
+                  ⁠Personalized plans
+                  </p>
+                </li>
+                <li className="flex items-center gap-2">
+                  <img alt="dot" width="20" height="20" src={circleDot} />
+                  <p className="text-12 leading-12 font-medium text-white">
+                  Activities tracking
+                  </p>
+                </li>
+                <li className="flex items-center gap-2">
+                  <img alt="dot" width="20" height="20" src={circleDot} />
+                  <p className="text-12 leading-12 font-medium text-white">
+                  Access to premium contents
+                  </p>
+                </li>
+                <li className="flex items-center gap-2">
+                  <img alt="dot" width="20" height="20" src={circleDot} />
+                  <p className="text-12 leading-12 font-medium text-white">
+                  Access to communities 
+                  </p>
+                </li>
+                <li className="flex items-center gap-2">
+                  <img alt="dot" width="20" height="20" src={circleDot} />
+                  <p className="text-12 leading-12 font-medium text-white">
+                    Sync with your wearable
+                  </p>
+                </li>
+                <li className="flex items-center gap-2">
+                  <img alt="dot" width="20" height="20" src={circleDot} />
+                  <p className="text-12 leading-12 font-medium text-white">
+                  Remote monitoring 
+                  </p>
+                </li>
+                <li className="flex items-center gap-2">
+                  <img alt="dot" width="20" height="20" src={circleDot} />
+                  <p className="text-12 leading-12 font-medium text-white">
+                  5 free appointments 
+                  </p>
+                </li>
+              </ul>
+            )}
         </div>
       </div>
   );
