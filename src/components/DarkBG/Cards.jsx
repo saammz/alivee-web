@@ -12,10 +12,10 @@ const Cards = () => {
   };
 
   return (
-    <div className="flex flex-col items-center max-w-3xl mx-auto text-white mt-6 mb-24">
+    <div className="flex flex-col items-center max-w-3xl mx-auto text-white mt-6 mb-12">
       <div className="flex flex-col items-center gap-8 mb-10 md:mb-20 text-center sm-max:gap-2">
         <h2 className="text-4xl leading-4xl md:text-7xl md:leading-7xl font-semibold">
-          <span className="flex max-w-3xl mx-auto text-white md:mt-6 sm-max:text-[42px]">
+          <span className="flex max-w-3xl mx-auto text-white sm-max:text-[42px]">
           Take Charge of Your Health
           </span>
         </h2>
