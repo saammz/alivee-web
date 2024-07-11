@@ -35,7 +35,7 @@
   .more-cards, .more-cards-high, .more-cards-first, .more-cards-second, .more-cards-third ,.plans-green{
     width: 370px;
   }
-  .more-cards-high, .more-cards-third{
+  .more-cards, .more-cards-high, .more-cards-third{
     height: 500px;
   }
 }
@@ -44,8 +44,13 @@
   .more-cards, .more-cards-high, .more-cards-first, .more-cards-second, .more-cards-third, .plans-green {
     width: 310px;
   }
-  .more-cards-high, .more-cards-first, .more-cards-second, .more-cards-third{
+   .more-cards-high, .more-cards-first, .more-cards-second, .more-cards-third{
     height: 500px;
+  }
+}
+@media (min-width: 320px) and (max-width: 380px){
+  .more-cards{
+    height: 450px;
   }
 }
 
