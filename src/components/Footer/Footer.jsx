@@ -7,8 +7,8 @@ import { FaRegCopyright } from "react-icons/fa";
 export const Footer = () => {
   return (
     <footer className="bg-black lg:p-6 lg:px-28 md:px-6 w-full pb-8">
-      <div className="lg:p-6 lg:px-28 px-11 flex flex-col gap-4">
-        <div className="flex items-center justify-start p-4">
+      <div className="lg:p-6 lg:px-28 px-11 flex flex-col items-start gap-4 pt-6">
+        <div className="flex items-center justify-start mb-2">
           <img src={logo} alt="logo" className="w-auto h-12" />
         </div>
         <div className="flex gap-11 flex-col md:flex-row xl:flex xl:justify-between">

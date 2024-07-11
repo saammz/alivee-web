@@ -21,7 +21,7 @@ const MoreCards = () => {
             Your complete solution for holistic health management.
           </h3>
         </div>
-        <div className="flex items-center justify-center gap-8 sm-max:flex sm-max:flex-col mt-12">
+        <div className="flex items-center justify-center gap-8 sm-max:flex sm-max:flex-col mt-10">
           <div className="flex flex-col items-center justify-center gap-8">
             <div className="more-cards flex justify-between px-1 bg-[#d8e8f0] rounded-2xl md:rounded-20 sm-max:flex sm-max:flex-col sm-max:items-center sm-max:relative">
               <div className="w-[55%] p-6 pr-0 sm-max:w-full xsm-max:p-4 sm-max:relative">
