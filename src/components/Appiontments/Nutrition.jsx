@@ -12,7 +12,7 @@ export const Nutrition = () => {
   return (
     <div className="pt-10 md:pt-20 w-full flex flex-col items-center lg:gap-10 gap-4 px-0  p-3 md:p-6 bg-white">
       <div className="flex flex-col gap-8 items-center">
-        <h1 className="sm-max:text-3xl md:text-6xl lg:text-4xl leading-48 text-black md:leading-70 text-center font-semibold">
+        <h1 className="sm-max:text-3xl md:text-6xl lg:text-4xl leading-48 text-black md:leading-70 text-center font-semibold sm-max:mb-6">
           Explore Insights on Sickle Cell Management
         </h1>
       </div>

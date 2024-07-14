@@ -14,10 +14,10 @@ const MoreCards = () => {
     <>
       <div className="flex flex-col items-center">
         <div className="flex flex-col gap-8 mb-1 md:mb-20 text-center sm-max:gap-2">
-          <h3 className="text-7xl sm-max:text-[45px] md:text-20 md:leading-20 font-medium leading-[3rem] text-white">
+          <h3 className="text-7xl sm-max:text-[45px] sm-max:mt-16 md:text-20 md:leading-20 font-medium sm-max:leading-[3.5rem] text-white">
             What do you get with Alivee?
           </h3>
-          <h3 className="text-3xl sm-max:text-[20px] leading-8 md:text-20 md:leading-20 font-medium text-gray-400">
+          <h3 className="text-3xl sm-max:text-[20px] leading-8 md:text-20 sm-max:mt-4 md:leading-20 font-medium text-gray-400">
             Your complete solution for holistic health management.
           </h3>
         </div>

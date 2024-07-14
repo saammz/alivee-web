@@ -11,7 +11,7 @@ export const Appointment = () => {
   };
 
   return (
-    <div className="md:pt-20 sm-max:pt-10 flex flex-col w-full items-center lg:gap-16 px-0 p-3 md:p-6 bg-white">
+    <div className="md:pt-20 sm-max:pt-10 flex flex-col w-full items-center lg:gap-16 md:gap-12 sm-max:gap-10 px-0 p-3 md:p-6 bg-white">
       <div className="flex flex-col items-center">
         <h1 className="leading-10 text-black md:leading-70 text-center font-bold pb-4 lg:max-w-3xl md-max:w-full sm-max:text-[48px] md:text-6xl lg:text-8xl">
           Meet Our Team of Experts
