@@ -12,7 +12,7 @@ const Experience = () => {
         </h2>
         <h3 className="text-3xl leading-18 md:text-20 md:leading-20 md:mt-4 font-medium text-gray-400 sm-max:text-[20px] sm-max:mt-4 sm-max:mb-6">
           <span>
-          With emphasis on Diabetes, Sickle Cell, and <br/> High Blood Pressure
+          With emphasis on Diabetes, Sickle Cell, and High Blood Pressure
           </span>
         </h3>
         <div className="">
