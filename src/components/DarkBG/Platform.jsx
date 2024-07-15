@@ -5,20 +5,18 @@ import apple from "../../resources/apple.png";
 
 const Platform = () => {
   return (
-    <div className="flex items-center justify-center sm-max:flex sm-max:flex-col sm-max:px-20 xsm-max:px-10">
-      <div className="">
+    <div className="flex items-center justify-center sm-max:flex-col max-w-screen-xl mx-auto">
+      <div className="overflow-hidden md:w-1/2">
         <img
           alt="available on appstore"
           loading="lazy"
-          width="580"
-          height="806"
-          decoding="async"
           src={appstore}
+          className="w-full h-full object-cover sm-max:scale-120"
         />
       </div>
-      <div className="text-white">
+      <div className="text-white md:w-1/2 md-max:mx-10">
         <div className="grid">
-          <h1 className="lg:text-6xl leading-48 md:text-4xl md:leading-70 sm-max:text-3xl font-semibold flex lg:max-w-md">
+          <h1 className="lg:text-6xl leading-48 md:text-4xl md:leading-70 sm-max:text-3xl font-semibold flex lg:max-w-md sm-max:mt-10">
            Coming Soon on App Store & Play Store
           </h1>
           <div className="flex flex-col mt-10">
