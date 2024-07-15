@@ -1,5 +1,6 @@
 import { useState } from "react";
 import circleDot from '../../resources/dot.svg';
+import dotFade from '../../resources/dot-fade.svg';
 
 
 
@@ -141,20 +142,20 @@ const Premium = () => {
                   </p>
                 </li>
                 <li className="flex items-center gap-2">
-                  <img alt="dot" width="20" height="20" src={circleDot} />
-                  <p className="text-12 leading-12 font-medium text-white">
+                  <img alt="dot" width="20" height="20" src={dotFade} />
+                  <p className="text-12 leading-12 font-medium text-gray-400">
                     Sync with your wearable
                   </p>
                 </li>
                 <li className="flex items-center gap-2">
-                  <img alt="dot" width="20" height="20" src={circleDot} />
-                  <p className="text-12 leading-12 font-medium text-white">
+                  <img alt="dot" width="20" height="20" src={dotFade} />
+                  <p className="text-12 leading-12 font-medium text-gray-400">
                   Remote monitoring 
                   </p>
                 </li>
                 <li className="flex items-center gap-2">
-                  <img alt="dot" width="20" height="20" src={circleDot} />
-                  <p className="text-12 leading-12 font-medium text-white">
+                  <img alt="dot" width="20" height="20" src={dotFade} />
+                  <p className="text-12 leading-12 font-medium text-gray-400">
                   5 free appointments 
                   </p>
                 </li>

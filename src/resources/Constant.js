@@ -79,46 +79,46 @@ export const fitnessTips = [
     {
         id: 1,
         img: diabetes1,
-        display: nutrition,
-        userName: "Maria Benedito",
+        display: first,
+        userName: "Arinze Ugochukwu",
         topic: "Diabetes Mellitus and Pregnancy"
     },
     {
         id: 2,
         img: diabetes2,
-        display: sofia,
-        userName: "Sofia Alcada",
+        display: second,
+        userName: "Richard Nya",
         topic: "⁠Food an Effective Medicine in Diabetes?"
     },
     {
         id: 3,
         img: diabetes3,
-        display: tiago,
-        userName: "Tiago Pinto",
+        display: third,
+        userName: "Kenneth Nwambam",
         topic: "Common Diabetes Pills Also Protect Kidneys"
 
     },
     {
         id: 4,
         img: diabetes4,
-        display: nutrition,
-        userName: "Anderia Rosa",
+        display: fourth,
+        userName: "Chike Bosah",
         topic: " Are Immune Therapies for Type 1 Diabetes Worthwhile?"
 
     },
     {
         id: 5,
         img:diabetes5,
-        display: nutrition,
-        userName: "Maria Benedito",
+        display: fifth,
+        userName: "Hilda Udoh",
         topic: "Can Tirzepatide Put Type 2 Diabetes Into Remission?"
 
     },
     {
         id: 6,
         img: diabetes6,
-        display: nutrition,
-        userName: "Ana Andrade",
+        display: sixth,
+        userName: "Samuel Adeyi",
         topic: "⁠How Can Patients With Diabetes and Obesity Lose Weight?"
     },
 ]
@@ -127,24 +127,24 @@ export const nutritionTips = [
     {
         id: 1,
         img: sicklecell1,
-        display: nutrition,
-        userName: "Maria Benedito",
+        display: first,
+        userName: "Arinze Ugochukwu",
         area: "Nutritions",
         topic: "Rethinking Approach to Manage Fever in ED for Children With Sickle Cell Disease"
     },
     {
         id: 2,
         img: sicklecell2,
-        display: nutrition,
-        userName: "Sofia Alcada",
+        display: second,
+        userName: "Richard Nya",
         area: "Nutritions",
         topic: "Sickle Cell Anemia Skeletal Imaging"
     },
     {
         id: 3,
         img: sicklecell3,
-        display: nutrition,
-        userName: "Tiago Pinto",
+        display: third,
+        userName: "Kenneth Nwambam",
         area: "Nutritions",
         topic: "Children With Sickle Cell Disease at Risk for Vision Loss"
 
@@ -152,8 +152,8 @@ export const nutritionTips = [
     {
         id: 4,
         img: sicklecell4,
-        display: nutrition,
-        userName: "Anderia Rosa",
+        display: fourth,
+        userName: "Chike Bosah",
         area: "Nutritions",
         topic: "Is $3.5 Million a Fair Price for a Lifesaving Gene Therapy?"
 
@@ -161,8 +161,8 @@ export const nutritionTips = [
     {
         id: 5,
         img: sicklecell5,
-        display: nutrition,
-        userName: "Maria Benedito",
+        display: fifth,
+        userName: "Hilda Udoh",
         area: "Nutritions",
         topic: "High Price for Gene Therapy ― But Cost-Effective in Sickle Cell"
 
@@ -170,8 +170,8 @@ export const nutritionTips = [
     {
         id: 6,
         img: sicklecell6,
-        display: nutrition,
-        userName: "Ana Andrade",
+        display: sixth,
+        userName: "Samuel Adeyi",
         area: "Nutritions",
         topic: "⁠Sickle Cell: Good Outcomes for Haploidentical Transplants"
     },
@@ -180,24 +180,24 @@ export const wellbeingTips = [
     {
         id: 1,
         img: hbp1,
-        display: nutrition,
-        userName: "Maria Benedito",
+        display: first,
+        userName: "Arinze Ugochukwu",
         area: "Wellbeing",
         topic: "Reduce Sitting Time to Lower Blood Pressure"
     },
     {
         id: 2,
         img: hbp2,
-        display: nutrition,
-        userName: "Sofia Alcada",
+        display: second,
+        userName: "Richard Nya",
         area: "Wellbeing",
         topic: "⁠Blood Pressure Falls With Self-Managed Sodium Reductions"
     },
     {
         id: 3,
         img: hbp3,
-        display: nutrition,
-        userName: "Tiago Pinto",
+        display: third,
+        userName: "Kenneth Nwambam",
         area: "Wellbeing",
         topic: "⁠Chronic Conditions Among Adults Aged 18–34 Years"
 
@@ -205,8 +205,8 @@ export const wellbeingTips = [
     {
         id: 4,
         img: hbp4,
-        display: nutrition,
-        userName: "Anderia Rosa",
+        display: fourth,
+        userName: "Chike Bosah",
         area: "Wellbeing",
         topic: "⁠COVID May Increase Risk of High Blood Pressure"
 
@@ -214,8 +214,8 @@ export const wellbeingTips = [
     {
         id: 5,
         img: hbp5,
-        display: nutrition,
-        userName: "Maria Benedito",
+        display: fifth,
+        userName: "Hilda Udoh",
         area: "Wellbeing",
         topic: "Hypertension and Pregnancy"
 
@@ -223,8 +223,8 @@ export const wellbeingTips = [
     {
         id: 6,
         img: hbp6,
-        display: nutrition,
-        userName: "Ana Andrade",
+        display: sixth,
+        userName: "Samuel Adeyi",
         area: "Wellbeing",
         topic: "Spirituality Intervention Tied to Lower Blood Pressure"
     },

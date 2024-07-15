@@ -15,7 +15,7 @@ const Hero = () => {
     <div className="w-full z-10">
       <div className="relative h-screen overflow-hidden">
         <img
-          className="object-cover w-full h-full sm-max:mt-[7rem] sm-max:scale-150"
+          className="object-cover w-full h-full sm-max:mt-4"
           src={HeroSection}
           alt="Hero Background"
         />
