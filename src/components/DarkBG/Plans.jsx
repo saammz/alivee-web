@@ -1,3 +1,4 @@
+/* eslint-disable no-irregular-whitespace */
 import { useState } from "react";
 import Premium from "./Premium";
 import FamilyPlan from "./FamilyPlan";

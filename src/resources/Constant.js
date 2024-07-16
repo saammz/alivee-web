@@ -22,11 +22,6 @@ import hbp4 from '../resources/hbp4.jpg';
 import hbp5 from '../resources/hbp5.jpg';
 import hbp6 from '../resources/hbp6.jpg';
 import hbp2 from '../resources/hbp2.webp';
-import nutrition from '../resources/nutrition.png';
-import sofia from '../resources/sofia-baptista.png';
-import tiago from '../resources/tiago-pinto.png';
-import ana from '../resources/ana-andrade.png';
-import andria from '../resources/andreia-rosa.png';
 
 
 
@@ -71,7 +66,7 @@ export const experts = [
         img: sixth,
         userName: "Samuel Adeyi",
         area: "General Physician",
-        country:"USA",
+        country:"Nigeria",
     },
 ]
 
