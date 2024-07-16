@@ -1,6 +1,6 @@
+/* eslint-disable no-irregular-whitespace */
 import { useState } from "react";
 import circleDot from '../../resources/dot.svg';
-import dotFade from '../../resources/dot-fade.svg';
 
 
 
@@ -90,7 +90,7 @@ const Premium = () => {
                   Access to communities 
                   </p>
                 </li>
-                <li className="flex items-center gap-2">
+                {/* <li className="flex items-center gap-2">
                   <img alt="dot" width="20" height="20" src={circleDot} />
                   <p className="text-12 leading-12 font-medium text-white">
                     Sync with your wearable
@@ -107,7 +107,7 @@ const Premium = () => {
                   <p className="text-12 leading-12 font-medium text-white">
                   5 free appointments 
                   </p>
-                </li>
+                </li> */}
               </ul>
             ) : (
               <ul className="flex flex-col gap-4">
@@ -141,7 +141,7 @@ const Premium = () => {
                   Access to communities 
                   </p>
                 </li>
-                <li className="flex items-center gap-2">
+                {/* <li className="flex items-center gap-2">
                   <img alt="dot" width="20" height="20" src={dotFade} />
                   <p className="text-12 leading-12 font-medium text-gray-400">
                     Sync with your wearable
@@ -158,7 +158,7 @@ const Premium = () => {
                   <p className="text-12 leading-12 font-medium text-gray-400">
                   5 free appointments 
                   </p>
-                </li>
+                </li> */}
               </ul>
             )}
         </div>
